@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="msapplication-tap-highlight" content="no">
+            <title>镁伽机器人 – 产品中心 – 运动控制 配置工具</title>
+        <meta name="description" content="产品中心 – 运动控制 配置工具" />
+        <meta name="keywords" content="产品中心 – 运动控制 配置工具" />
+        <link rel="stylesheet" href="./assets/megarobo/js/bootstrap/css/bootstrap.min.css" />
+    <!--<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="./assets/megarobo/css/style.css" />
+    <link rel="stylesheet" href="./assets/megarobo/css/ipad.css" />
+    <link rel="stylesheet" href="./assets/megarobo/css/phone.css" />
+    <!--<script type="text/javascript" src="/assets/megarobo/js/common/jquery.min.js"></script>-->
+    <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="/assets/megarobo/js/bootstrap/js/bootstrap.min.js"></script>-->
+   <!-- <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+  <script src="https://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/megarobo/js/header.js"></script>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+
+
+<div class="header navbar navbar-inverse">
+    <nav class="container header_nav clearfix">
+        <h1 class="fl visible-lg"><a href="/"><img src="./assets/megarobo/images/logo.png" /></a></h1>
+        <h1 class="fl hidden-lg"><a href="/"><img src="./assets/megarobo/images/m_logo.png" /></a></h1>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse menu_right fr">
+            <ul id="menuBox" class="nav navbar-nav first_menu" role="navigation">
+                <li><a page-name="index" href="/" > 首页</a></li>
+                <li>
+                    <a href="javascript:void(0);" page-name="solvePlan" sign="jjfa-a" class="dropdown-toggle "  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案</a>
+                    <ul class="dropdown-menu twolevel_menu product_menu">
+                        <li>
+                            <a sign="jjfa" page-name="lifeSciences" href="/program/science" >生命科学</a>
+                        </li>
+                        <li>
+                            <a sign="jjfa" page-name="intelligenceMake" href="/program/create" >智能制造</a>
+                        </li>
+                        <li>
+                            <a sign="jjfa" page-name="intelligenceRetail" href="/program/retail" >智能零售</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a page-name="product" sign="cpzx-a" class="dropdown-toggle  cur " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >产品中心</a>
+
+                    <ul class="dropdown-menu twolevel_menu product_menu min_height">
+                        <li>
+                            <a sign="cpzx" sign-menu="robot-a" hover-menu="1" href="/product/robot/center" >机器人</a>
+                            <div class="three_menu">
+                                <a sign="cpzx" sign-menu="robot" page-name="robotTypeSeries" href="/product/robot/tandem" >串联型</a>
+                                <a sign="cpzx" sign-menu="robot" page-name="robotTypeParallel" href="/product/robot/parallel" >并联型</a>
+                                <a sign="cpzx" sign-menu="robot" page-name="robotTypePipette" href="/product/robot/pipetting" >坐标型-移液机器人</a>
+                                <a sign="cpzx" sign-menu="robot" page-name="robotTypePlane" href="/product/robot/flat" >坐标型-平面门架</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a sign="cpzx" sign-menu="motion-a" hover-menu="1"  href="/product/sport/center"          class="cur"  >运动控制</a>
+                            <div class="three_menu">
+                                <a sign="cpzx" sign-menu="motion" page-name="" href="/product/sport/motor"          >电机驱控器</a>
+                                <a sign="cpzx" sign-menu="motion" page-name="" href="/product/sport/directcurrent"   class="cur"  >直流驱控器</a>
+                                <a sign="cpzx" sign-menu="motion" page-name="" href="/product/sport/intelligent"    >智能网关</a>
+                                <a sign="cpzx" sign-menu="motion" page-name="" href="/product/sport/workstation"   >运动控制工作站</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a sign="cpzx" sign-menu="soft-a" hover-menu="1" href="/product/software/center"  >软件服务</a>
+                            <div class="three_menu">
+                                <a sign="cpzx" sign-menu="soft" page-name="developSuite" href="/product/software/suite"  >镁伽开发套件</a>
+                                <a sign="cpzx" sign-menu="soft" page-name="softFramework" href="/product/software/structure" >镁伽基础软件架构</a>
+                               <!-- <a sign="cpzx" sign-menu="soft" page-name="operationSystem" href="/product/software/system">镁伽机器人操作系统</a>-->
+                            </div>
+                        </li>
+                        <!--<li><a sign="cpzx" page-name="dataServicePage" href="dataServicePage.html">数据服务</a></li>-->
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" sign="khfw-a" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">客户服务</a>
+                    <ul class="dropdown-menu twolevel_menu">
+                        <li><a sign="khfw"  href="/service/lease"  >产品租赁</a></li>
+                        <li><a sign="khfw" href="/service/sales" >售后服务</a></li>
+                        <li><a sign="khfw" page-name="serviceDownload" href="/download/tab" >下载中心</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" sign="gymj-a" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于镁伽</a>
+                    <ul class="dropdown-menu twolevel_menu">
+                        <li><a sign="gymj" page-name="megaroboInfo" href="/about/introduction" >镁伽简介</a></li>
+                        <li><a sign="gymj" page-name="newsList" href="/news/list" >新闻报道</a></li>
+                        <li><a sign="gymj" page-name="partner" href="/about/partner" >合作伙伴</a></li>
+                        <li><a sign="gymj" href="/about/join" >加入我们</a></li>
+                        <li><a sign="gymj" href="/about/contactus" >联系我们</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="fl search_wrapper visible-lg">
+				<div class="btn_wrapper"><div class="img_bg"></div></div>
+				<div class="input_wrapper">
+					<div class="input"><input type="text" placeholder="请输入..." id="keyword" maxlength="30" /><i class="icon" onclick="validateInput('keyword')"></i></div>
+					<div class="tip_text">关键字：解决方案、串联机器人...</div>
+				</div>
+			</div>
+            <div class="language">
+                <a  class="cur"  href="/product/sport/directcurrent" >CN</a> <a  href="/en/product/sport/directcurrent">EN</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<script>
+    var SCOPE = {
+        'surl' : '/search/keywords',
+    }
+</script>
+<body class="body_padding direct_page">
+<div class="banner"></div>
+<div class="parallel_page">
+    <div class="container introduce1_box">
+        <ol class="breadcrumb_ol"><li><a class="first" href="/product/sport/center">运动控制</a></li><li><a href="javascript:void(0);">配置工具</a></li></ol>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 left_box">
+                    <a class="download_btn" style="background:transparent"
+                    href="javascript:void(0);"></a>
+                <!-- <a class="download_btn" href="/uploads/20180726/27e74308c1deac0bf655e735ae073e41.pdf">资料下载</a> -->
+                <div class="tit">MCT（MegaRobo Configuration Tool）<br> 镁伽配置工具</div>
+                <div class="detail">快速配置、简单易用、实时监控</div>
+            </div>
+            <div class="fr right_box">
+                <div class="icon"><img src="./assets/megarobo/images/contactus_icon01.png" /></div>
+                <div class="telephone">
+                    <div id="tabContent" class="tab_content">
+                                                <div id="1Content"  style="display: block;  "><span>蔡仲洪</span>134-3884-2722</div>
+                                                <div id="2Content"  "><span>张少正</span>138-1095-8993</div>
+                                                <div id="3Content"  "><span>贾田雨</span>189-2525-6458</div>
+                                                <div id="4Content"  "><span>Charlie Peng</span>00351-969-571-336</div>
+                                                <div id="5Content"  "><span>苏鹏亮</span>184-0107-8830</div>
+                                            </div>
+                    <div id="tabMenu" class="tab">
+                                                <span sign="1"  class="cur" >北区</span>
+                                                <span sign="2" >华东</span>
+                                                <span sign="3" >华南</span>
+                                                <span sign="4" >海外</span>
+                                                <span sign="5" >技术支持</span>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg_color">
+	<div class="content_box1">
+	    <div class="container">
+	        <h3>产品介绍</h3>
+	        <p>镁伽配置工具MCT可实现对MRX系列机器人的快速配置，简单易用、操作方便，将复杂运动控制可视化，提升<br>用户体验，降低学习成本。</p>
+	    </div>
+	</div>
+	<div class="container">
+	    <div class="content_box2">
+	        <h3>产品特色</h3>
+	        <ul id="featureBox" class="clearfix">
+                    <div class="row needFlex">
+                            <li class="fl col-md-3 col-sm-12 col-xs-12">
+                                    <div class="info">
+                                        <div class="tit">快速配置</div>
+                                        <div>+</div>
+                                        <div class="text">操作简单便捷，提高工作效率</div>
+                                    </div>
+                            </li>
+                            <li class="fl col-md-3 col-sm-12 col-xs-12">
+                                    <div class="info">
+                                        <div class="tit">简单易用 </div>
+                                        <div>+</div>
+                                        <div class="text">图形化人机界面，将复杂运动控制可视化</div>
+                                    </div>
+                            </li>
+                            <li class="fl col-md-3 col-sm-12 col-xs-12">
+                                    <div class="info">
+                                        <div class="tit">实时监控 </div>
+                                        <div>+</div>
+                                        <div class="text">运动状态及数据实时监控，支持数据读取、保存</div>
+                                    </div>
+                            </li>
+                     </div>
+	        </ul>
+	    </div>
+	</div>
+</div>
+<script>
+    $(function(){
+        var $tab = $("#tabMenu>span");
+        $.each($tab, function(k,v) {
+            $(v).hover(function(){
+                $tab.removeClass("cur");
+                $(v).addClass("cur");
+                $("#tabContent>div").hide();
+                $("#"+$(v).attr("sign")+"Content").show();
+            });
+        });
+    });
+</script>
+<div class="footer visible-lg">
+    <div class="container">
+        <div class="row footer_menu">
+            <div class="col-sm-1 col-lg-1 col-md-1">
+                <div class="tit"><a href="javascript:void(0);">解决方案</a></div>
+                <ul>
+                        <a href="/program/science"><li>生命科学</li></a>
+                        <a href="/program/create"><li>智能制造</li></a>
+                        <a href="/program/retail"><li>智能零售</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1">
+                <div class="tit"><a href="javascript:void(0);">产品中心</a></div>
+                <ul>
+                    <a href="/product/robot/center"><li>机器人</li></a>
+                    <a href="/product/sport/center"><li>运动控制</li></a>
+                    <a href="/product/software/center"><li>软件服务</li></a>
+                    <!-- <a href="/program/science"><li>数据服务</li></a>-->
+                </ul>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1">
+                <div class="tit"><a href="javascript:void(0);">客户服务</a></div>
+                <ul>
+                    <a href="/service/lease" ><li>产品租赁</li></a>
+                    <a href="/service/sales" ><li>售后服务</li></a>
+                   <!-- <li>软件服务</li>-->
+                    <a href="/download/tab" ><li>下载中心</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1">
+                <div class="tit"><a href="javascript:void(0);">关于镁伽</a></div>
+                <ul>
+                    <a href="/about/introduction"> <li>镁伽简介</li></a>
+                    <a href="/news/list"><li>新闻报道</li></a>
+                    <a href="/about/partner"><li>合作伙伴</li></a>
+                    <a href="/about/join"> <li>加入镁伽</li></a>
+                    <a href="/about/contactus"><li>联系我们</li></a>
+                </ul>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1 right_footer m_left">
+                <div class="icon"><img src="./assets/megarobo/images/wx_icon.png" />微信</div>
+                <div class="img"><img src="https://www.megarobo.tech/uploads/20180525/b9e3e0ba883a9349763042c3e10b03a1.jpg" /></div>
+            </div>
+            <div class="col-sm-1 col-lg-1 col-md-1 right_footer">
+                <div class="icon"><img src="./assets/megarobo/images/wb_icon.png" />微博</div>
+                <div class="img"><img src="https://www.megarobo.tech/uploads/20180525/2d449ee44dbbbb54e2351a9329dca0c6.png" /></div>
+            </div>
+        </div>
+        <div class="site_record">Copyright © 2016-2018 北京镁伽机器人科技有限公司 · 保留所有权利   京ICP：16068967-1号</div>
+    </div>
+</div>
+<div id="backTop" class="back_top" style="display: none;">
+	<a href="javascript:void(0);"><img src="./assets/megarobo/images/back_top.jpg" /></a>
+</div>
+
+<script>
+	$(function(){
+		var wHeight = $(window).height();
+		$(window).scroll(function(){
+			if($(this).scrollTop() >= wHeight){
+				$("#backTop").show();
+			}else{
+				$("#backTop").hide();
+			}
+		});
+		
+		$('#backTop').on('click', function (e) {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 500);
+        });
+	})
+</script>
+<!--<script type="text/javascript" src="/assets/megarobo/js/header.js"></script>-->
+</body>
+</html>
+<div class="footer_m visible-xs">
+	<div class="container">
+	    <div class="footer_box1">
+	        <dl>
+	            <dt><img src="./assets/megarobo/images/wx_icon.png" /> 微信</dt>
+	            <dd><img src="https://www.megarobo.tech/uploads/20180525/b9e3e0ba883a9349763042c3e10b03a1.jpg" /></dd>
+	        </dl>
+	        <dl>
+	            <dt><img src="./assets/megarobo/images/wb_icon.png" /> 微博</dt>
+	            <dd><img src="https://www.megarobo.tech/uploads/20180525/2d449ee44dbbbb54e2351a9329dca0c6.png" /></dd>
+	        </dl>
+	    </div>
+	    <div class="footer_box2">Copyright © 2016-2018 北京镁伽机器人科技有限公司 · 保留所有权利  <br />京ICP：16068967-1号</div>
+    </div>
+</div>
+<!--<script type="text/javascript" src="/assets/megarobo/js/header.js"></script>-->
+<script type="text/javascript" src="./assets/megarobo/js/index.js"></script>
+</body>
+</html>
+<div class="footer_ipad visible-sm visible-md">
+	<div class="container">
+	    <div class="footer_box1">
+	        <dl>
+	            <dt><img src="./assets/megarobo/images/wx_icon.png" /> 微信</dt>
+	            <dd><img src="https://www.megarobo.tech/uploads/20180525/b9e3e0ba883a9349763042c3e10b03a1.jpg" /></dd>
+	        </dl>
+	        <dl>
+	            <dt><img src="./assets/megarobo/images/wb_icon.png" /> 微博</dt>
+	            <dd><img src="https://www.megarobo.tech/uploads/20180525/2d449ee44dbbbb54e2351a9329dca0c6.png" /></dd>
+	        </dl>
+	    </div>
+	    <div class="footer_box2">Copyright © 2016-2018 北京镁伽机器人科技有限公司 · 保留所有权利  <br />京ICP：16068967-1号</div>
+    </div>
+</div>
+<script type="text/javascript" src="./assets/megarobo/js/index.js"></script>
+</body>
+</html>

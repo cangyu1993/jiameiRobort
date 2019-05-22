@@ -1,0 +1,2455 @@
+@media screen and (max-width: 767px) {
+	.container {
+		padding: 0 10px;
+	}
+	.noNeedPadding{
+		padding: 0;
+	}
+	.body_padding {
+		padding-top: 50px;
+	}
+	.banner {
+		height: 150px;
+	}
+	/*头部*/
+	.header_nav .product_menu {
+		width: 100%;
+	}
+	.header_nav .twolevel_menu a {
+		line-height: 34px;
+	}
+	.header_nav .product_menu li>a {
+		padding-left: 0px;
+	}
+	.dropdown-menu {
+		border: none;
+	}
+	.header_nav .twolevel_menu li {
+		font-size: 12px;
+		width: auto;
+		text-align: left;
+		padding: 0 10px;
+	}
+	.header_nav .twolevel_menu {
+		min-width: 100%;
+	}
+	.navbar-toggle {
+		margin-right: 0px;
+	}
+	.header_nav h1 img {
+		margin-left: 0px;
+	}
+	.header h1 {
+		width: 140px;
+	}
+	.header ul {
+		padding-bottom: 15px;
+	}
+	.header_nav .min_height {
+		min-height: auto;
+	}
+	.header_nav .first_menu>li {
+		position: relative;
+		display: block;
+		width: 100%;
+		line-height: 34px;
+		font-size: 14px;
+		padding: 0 20px;
+	}
+	.header_nav .dropdown-menu {
+		position: static;
+	}
+	.navbar-nav>li>a {
+		line-height: 34px;
+		font-size: 14px;
+	}
+	.navbar-collapse {
+		padding-left: 0px;
+		overflow: hidden;
+	}
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+		margin: 0px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		line-height: 34px;
+		padding: 0px;
+		color: #8c8c8c;
+	}
+	.carousel-control {
+		width: 15%;
+		height: 100%;
+	}
+	.banner_m .footer_box2 {
+		padding: 0 10px;
+	}
+	.carousel-indicators li {
+		width: 6px;
+		height: 6px;
+		margin-right: 4px;
+		border-radius: 50%;
+	}
+	.carousel-indicators .active {
+		width: 6px;
+		height: 6px;
+		margin-right: 4px;
+		margin-bottom: 1px;
+		border-radius: 50%;
+		border: 1px solid #e1e1e1;
+	}
+	.back_top {
+		bottom: 50px;
+		right: 20px;
+		width: 45px;
+	}
+	.back_top img {
+		width: 100%;
+	}
+	/*售后服务*/
+	.aftersale_page .banner {
+		background-size: cover;
+	}
+	.aftersale_page .content_box1 {
+		height: auto;
+		padding: 20px 0 40px;
+		background-size: cover;
+	}
+	.aftersale_page .content_box1 h2 {
+		font-size: 15px;
+		margin: 0px;
+		height: 70px;
+		line-height: 70px;
+	}
+	.aftersale_page .content_box1 p {
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+	.aftersale_page .content_box2 h2 {
+		font-size: 15px;
+		margin-top: 0px;
+		line-height: 70px;
+	}
+	.aftersale_page .content_box2 li {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 15px 0;
+		margin-bottom: 15px;
+	}
+	.aftersale_page .content_box2 h3 {
+		margin-top: 0px;
+		font-size: 14px;
+	}
+	.aftersale_page .content_box2 p {
+		margin-top: 15px;
+	}
+	.aftersale_page .contact_us {
+		margin: 30px 0;
+	}
+	.aftersale_page .contact_us .icon img {
+		width: 32px;
+	}
+	.aftersale_page .contact_us .telephone span {
+		font-size: 16px;
+	}
+	.aftersale_page .contact_us .tab_content {
+		font-size: 14px;
+	}
+	.aftersale_page .contact_us .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 16px;
+	}
+	.aftersale_page .contact_us .tab span {
+		font-size: 14px;
+	}
+	.aftersale_page .contact_us .telephone {
+		margin-top: 15px;
+	}
+	.aftersale_page .contact_us .tab {
+		margin-top: 5px;
+	}
+	/*产品租赁*/
+	.lease_page .banner {
+		background-size: cover;
+	}
+	.lease_page .introduce {
+		height: 200px;
+	}
+	.lease_page .introduce h2 {
+		font-size: 15px;
+		margin-top: 15px;
+	}
+	.lease_page .introduce p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-top: 10px;
+	}
+	.lease_page .range h2 {
+		font-size: 15px;
+		margin-top: 0px;
+		line-height: 70px;
+	}
+	.lease_page .range ul {
+		margin-top: 0px;
+	}
+	.lease_page .range li {
+		font-size: 12px;
+		margin-bottom: 35px;
+		margin-top: 10px;
+	}
+	.lease_page .range li span {
+		background: url(../images/lease_icon1.png) no-repeat;
+		height: 33px;
+	}
+	.lease_page .range li .icon1 {
+		width: 32px;
+	}
+	.lease_page .range li .icon2 {
+		width: 28px;
+		background-position: -32px 0px;
+	}
+	.lease_page .range li .icon3 {
+		width: 44px;
+		background-position: -60px 0px;
+	}
+	.lease_page .range li .icon4 {
+		width: 29px;
+		background-position: -104px 0px;
+	}
+	.lease_page .range li .icon5 {
+		width: 38px;
+		background-position: -133px 0px;
+	}
+	.lease_page .range li .icon6 {
+		width: 32px;
+		background-position: -171px 0px;
+	}
+	.lease_page .range li .icon7 {
+		width: 32px;
+		background-position: -203px 0px;
+	}
+	.lease_page .advantage {
+		padding-bottom: 36px;
+	}
+	.lease_page .advantage h2 {
+		font-size: 15px;
+		margin-top: 0px;
+		line-height: 70px;
+	}
+	.lease_page .advantage li:last-child {
+		margin: 0px auto;
+	}
+	.lease_page .advantage li {
+		float: none;
+		height: auto;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 15px 0;
+	}
+	.lease_page .advantage li span {
+		display: none;
+	}
+	.lease_page .advantage p {
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.lease_page .lease_bottom h2 {
+		font-size: 15px;
+		margin-top: 10px;
+		line-height: 70px;
+	}
+	.lease_page .advantage .box2 {
+		margin-top: 0px;
+	}
+	.lease_page .advantage h3 {
+		font-size: 14px;
+		height: 14px;
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.lease_page .lease_bottom .contact_us {
+		width: 95%;
+		margin: 0 auto;
+		float: none;
+	}
+	.lease_page .lease_bottom .content {
+		margin-top: 15px;
+		height: 164px;
+	}
+	.lease_page .lease_bottom .content .icon {
+		padding-top: 20px;
+	}
+	.lease_page .lease_bottom .content .icon img {
+		width: 31px;
+	}
+	.lease_page .lease_bottom .reserved_lease {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.lease_page .lease_bottom .telephone {
+		margin-top: 20px;
+	}
+	.lease_page .lease_bottom .telephone span {
+		font-size: 15px;
+		margin-right: 14px;
+	}
+	.lease_page .lease_bottom .tab {
+		margin-top: 10px;
+	}
+	.lease_page .lease_bottom .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 14px;
+	}
+	.lease_page .lease_bottom .tab_content {
+		font-size: 12px;
+	}
+	.lease_page .lease_bottom .tab span {
+		font-size: 12px;
+		margin-right: 10px;
+	}
+	.lease_page .reserved_lease .info input {
+		width: 94%;
+		height: 25px;
+	}
+	.lease_page .reserved_lease .info textarea {
+		width: 94%;
+	}
+	.lease_page .reserved_lease .info {
+		margin-top: 0px;
+	}
+	.lease_page .reserved_lease .submit_btn {
+		width: 157px;
+		height: 32px;
+		line-height: 32px;
+		font-size: 14px;
+	}
+	.lease_page .reserved_lease .tip_box {
+		width: 94%;
+		margin-top: 0px;
+	}
+	.lease_page .lease_bottom {
+		height: auto;
+		padding-bottom: 80px;
+		background-size: cover;
+	}
+	/*下载中心*/
+	.download_page .banner {
+		background-size: cover;
+	}
+	.download_content .tab_content {
+		padding-bottom: 30px;
+	}
+	.download_content .down_menu {
+		height: 50px;
+		line-height: 50px;
+	}
+	.download_content .down_menu .tab {
+		width: 33.3%;
+		padding-top: 7px;
+		margin-top: -7px;
+	}
+	.download_content .down_menu .center_tab {
+		margin: -7px 0px 0px;
+	}
+	.download_content .down_menu {
+		font-size: 15px;
+	}
+	.download_content .tab_content ul {
+		margin-top: 20px;
+	}
+	.download_content .tab_content li {
+		padding: 12px 5px;
+	}
+	.download_content .tab_left .text_box {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.download_content .tab_left h3 {
+		width: 100%;
+	}
+	.download_content .right_box {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.download_content .tab_right {
+		position: static;
+		top: 0;
+		margin-top: 0px;
+	}
+	.download_content .tab_content ul {
+		width: 95%;
+	}
+	.download_content .right_box a {
+		width: 120px;
+		height: 26px;
+		line-height: 26px;
+		font-size: 15px;
+	}
+	.download_content .right_box img {
+		margin-top: 6px;
+		width: 18px;
+	}
+	/*新闻报道*/
+	.news_list_page .banner {
+		background-size: cover;
+	}
+	.news_list_page .news_box .title {
+		font-size: 15px;
+		height: auto;
+		line-height: 70px;
+		margin-top: 0px;
+	}
+	.news_list_page .list .news_img {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+		margin-right: 10px;
+	}
+	.news_list_page .list .news_img img {
+		width: 80px;
+	}
+	.news_list_page .list {
+		padding-top: 10px;
+	}
+	.news_list_page .list li {
+		padding: 0px 0 15px;
+		margin-bottom: 40px;
+	}
+	.news_list_page .list .tit {
+		font-size: 14px;
+		height: 18px;
+		line-height: 18px;
+		padding: 0px;
+	}
+	.news_list_page .list .date {
+		font-size: 12px;
+		color: #8c8c8c;
+		line-height: 26px;
+	}
+	.news_list_page .list p {
+		font-size: 12px;
+		line-height: 16px;
+		margin-top: 0px;
+		-webkit-line-clamp: 2;
+	}
+	.news_list_page .news_right {
+		text-align: center;
+	}
+	.news_list_page .news_right .date {
+		font-size: 12px;
+		text-align: right;
+		line-height: 26px;
+	}
+	.news_list_page .news_right a {
+		display: block;
+		width: 95%;
+		font-size: 14px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.news_list_page .page {
+		margin-top: 34px;
+	}
+	.news_list_page .page a {
+		font-size: 14px;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.news_list_page .news_box {
+		padding-bottom: 30px;
+	}
+	/*新闻详情*/
+	.news_detail_page .banner {
+		background-size: cover;
+	}
+	.news_detail_page .life_breadcrumb {
+		margin: 20px 0;
+	}
+	.news_detail_page .breadcrumb_ol {
+		margin-top: 36px;
+		margin-bottom: 22px;
+		font-size: 12px;
+		height: 16px;
+		line-height: 16px;
+		padding-left: 20px;
+	}
+	.news_detail_page .breadcrumb_ol>li+li:before {
+		font-size: 12px;
+	}
+	.news_detail_page .breadcrumb_ol .index {
+		font-size: 16px;
+	}
+	.news_detail_page .detail {
+		padding: 0 10px 100px;
+	}
+	.news_detail_page .detail .img img {
+		width: 80%;
+	}
+	.news_detail_page .detail h3 {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.news_detail_page .detail .date {
+		font-size: 12px;
+		margin-top: 13px;
+	}
+	.news_detail_page .info {
+		margin-top: 20px;
+	}
+	.news_detail_page .detail .img {
+		margin-top: 16px;
+		margin-bottom: 20px;
+	}
+	.news_detail_page .detail p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.news_detail_page .detail iframe {
+		height: auto;
+	}
+	/*镁伽简介*/
+	.megarobo_info_page .container {
+		background-size: cover;
+	}
+	.megarobo_info_page .content_box1 h2 {
+		font-size: 16px;
+		line-height: 50px;
+		margin-top: 20px;
+	}
+	.megarobo_info_page .content_box1 p {
+		font-size: 12px;
+		line-height: 26px;
+	}
+	.megarobo_info_page .content_box1 ul {
+		position: static;
+		bottom: 0px;
+		width: 100%;
+	}
+	.megarobo_info_page .content_box1 li {
+		width: 48%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.megarobo_info_page .content_box1 {
+		height: 150px;
+		background-size: cover;
+	}
+	.megarobo_info_page .content_box1 li {
+		height: auto;
+		margin-bottom: 10px;
+		padding-bottom: 30px;
+	}
+	.megarobo_info_page .content_box1 .li_title {
+		font-size: 14px;
+		margin-top: 30px;
+		margin-bottom: 12px;
+	}
+	.megarobo_info_page .content_box1 .li_text {
+		font-size: 12px;
+	}
+	.megarobo_info_page .content_box2 {
+		margin-top: 0px;
+		margin-bottom: 60px;
+	}
+	.megarobo_info_page .content_box2 h4 {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.megarobo_info_page .use_field dl {
+		width: 33%;
+	}
+	.megarobo_info_page .use_field dt {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+	.megarobo_info_page .use_field dd {
+		line-height: 20px;
+	}
+	.megarobo_info_page .tit_h3 {
+		font-size: 15px;
+	}
+	.megarobo_info_page .content_box3 h3 {
+		margin-bottom: 20px;
+	}
+	.megarobo_info_page .content_box3 .tit {
+		font-size: 14px
+	}
+	.megarobo_info_page .content_box3 .info {
+		font-size: 12px;
+		line-height: 20px;
+		margin-top: 6px;
+	}
+	.megarobo_info_page .content_box3 {
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.megarobo_info_page .content_box4 h3 {
+		margin: 15px 0;
+	}
+	.megarobo_info_page .content_box4 {
+		padding-bottom: 40px;
+	}
+	.megarobo_info_page .img_box img {
+		width: 24%;
+		margin: 0 0.5%;
+	}
+	.megarobo_info_page .content_box5 {
+		padding-bottom: 30px;
+	}
+	.megarobo_info_page .content_box5 h3 {
+		margin-top: 40px;
+		margin-bottom: 55px;
+	}
+	.megarobo_info_page .time_axis {
+		overflow-x: auto;
+		padding-left: 120px;
+	}
+	.megarobo_info_page .sidebar .hr {
+		margin-left: 1px;
+	}
+	.megarobo_info_page .event_box>div:nth-child(odd) {
+		padding-left: 40px;
+		background-size: 30px;
+	}
+	.megarobo_info_page .event_box>div:nth-child(even) {
+		padding-right: 40px;
+		background-size: 30px;
+	}
+	.megarobo_info_page .event_box .time {
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+	.megarobo_info_page .event_box .event {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.megarobo_info_page .event_box>div {
+		margin-bottom: 20px;
+	}
+	.megarobo_info_page .content_box1_m h2 {
+		font-size: 15px;
+		line-height: 70px;
+		text-align: center;
+	}
+	.megarobo_info_page .content_box1_m p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.megarobo_info_page .content_box1_m p span {
+		display: block;
+		font-size: 14px;
+		font-weight: 700;
+		padding-top: 6px;
+	}
+	.megarobo_info_page .content_box1_m ul {
+		font-size: 0px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.megarobo_info_page .content_box1_m li {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		height: auto;
+		background: #101010;
+		margin-right: 2%;
+		margin-bottom: 15px;
+		padding: 15px 0 30px;
+	}
+	.megarobo_info_page .content_box1_m li:nth-child(even) {
+		margin-right: 0px;
+	}
+	.megarobo_info_page .content_box1_m li:hover {
+		background: #292929;
+	}
+	.megarobo_info_page .content_box1_m .li_title {
+		font-size: 14px;
+		font-weight: bold;
+		color: #f0831e;
+		line-height: 50px;
+	}
+	.megarobo_info_page .content_box1_m .li_text {
+		font-size: 12px;
+		color: #e1e1e1;
+	}
+	.megarobo_info_page .content_box3_1 {
+		padding-top: 0px;
+	}
+	/*合作伙伴*/
+	.partner_page .banner {
+		background-size: cover;
+	}
+	.partner_page .banner .text {
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+	.partner_page .banner .text1 {
+		font-size: 16px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.partner_page .banner .text span {
+		font-size: 12px;
+	}
+	.partner_page h2 {
+		font-size: 15px;
+		margin: 0;
+	}
+	.partner_page .bg_box {
+		display: none;
+	}
+	.partner_page .text_box dl {
+		margin-bottom: 13px;
+	}
+	.partner_page .text_box dt {
+		padding-left: 18px;
+		font-size: 14px;
+		height: 20px;
+		line-height: 20px;
+		background-size: 8px 14px;
+	}
+	.partner_page .text_box dd {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.partner_page .text_box {
+		float: none;
+		padding: 0px 10px 20px;
+		background: #252525;
+		margin: 0px;
+		width: 100%;
+	}
+	.partner_page .form_box {
+		float: none;
+		width: 96%;
+		margin: 10px auto 0;
+		height: auto;
+		padding: 12px 14px 0px 13px
+	}
+	.partner_page .join h3 {
+		font-size: 15px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.partner_page .join h3 span {
+		width: 34px;
+	}
+	.partner_page .join li {
+		line-height: 24px;
+	}
+	.partner_page .join input {
+		width: 90%;
+		height: 24px;
+		font-size: 12px;
+	}
+	.partner_page .join textarea {
+		width: 90%;
+		height: 65px;
+	}
+	.partner_page .form_box .join {
+		margin: 0px;
+		text-align: center;
+	}
+	.partner_page .join ul span {
+		margin: 0 5px;
+	}
+	.partner_page .detail {
+		height: auto;
+		padding-bottom: 100px;
+		margin-top: 40px;
+	}
+	.partner_page .join a {
+		width: 60%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 15px;
+		margin-bottom: 0px;
+	}
+	.partner_page .join .btn_box {
+		margin-top: 30px;
+	}
+	/*联系我们*/
+	.contactus_page .banner {
+		background: url(../images/contact_us_banner_m.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.contactus_page .banner .text {
+		margin-left: 10px;
+		margin-top: 15px;
+	}
+	.contactus_page .banner .text1 {
+		font-size: 16px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.contactus_page .banner .text span {
+		font-size: 12px;
+	}
+	.contactus_page .address {
+		font-size: 14px;
+		padding-top: 40px;
+	}
+	.contactus_page .address span {
+		margin: 0 10px;
+		height: 15px;
+	}
+	.contactus_page .address .text {
+		font-size: 12px;
+		margin-top: 18px;
+	}
+	.contactus_page .contact_box {
+		height: auto;
+		background: #252525;
+		margin-top: 30px;
+		padding: 20px;
+		padding-bottom: 0px;
+	}
+	.contactus_page .contact_box dl:first-child {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #515151;
+	}
+	.contactus_page .contact_box dl {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-bottom: 20px;
+	}
+	.contactus_page .contact_box dt {
+		font-size: 14px;
+		height: 24px;
+		line-height: 24px;
+	}
+	.contactus_page .contact_box dd {
+		font-size: 12px;
+		margin-top: 12px;
+	}
+	.contactus_page .contact_type {
+		padding: 30px 0;
+	}
+	.contactus_page .contact_type .col-xs-12 {
+		background: #252525;
+		margin-bottom: 25px;
+		padding: 20px 0;
+	}
+	.contactus_page .contact_type .tab_content {
+		font-size: 12px;
+	}
+	.contactus_page .contact_type .telephone {
+		margin-top: 20px;
+	}
+	.contactus_page .contact_type .telephone span {
+		font-size: 14px;
+	}
+	.contactus_page .contact_type .tab {
+		margin-top: 10px;
+	}
+	.contactus_page .contact_type .tab span {
+		font-size: 12px;
+	}
+	.contactus_page .contact_type .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 14px;
+	}
+	.contactus_page .contact_type .icon img {
+		width: 34px;
+	}
+	.contactus_page .contact_type .text {
+		font-size: 12px;
+		margin: 20px 0 10px;
+	}
+	.contactus_page .form_box {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.contactus_page .form_box h3 {
+		font-size: 12px;
+		margin-top: 20px;
+		line-height: 50px;
+	}
+	.contactus_page .form_box h3 span {
+		display: none;
+	}
+	.contactus_page .form_info {
+		width: 96%;
+		margin: 0 auto;
+		padding: 0px;
+	}
+	.contactus_page .box2 input {
+		width: 90%;
+		height: 24px;
+	}
+	.contactus_page .box2 li {
+		padding-left: 5px;
+	}
+	.contactus_page .box2 span {
+		margin-right: 5px;
+	}
+	.contactus_page .box2 textarea {
+		width: 90%;
+	}
+	.contactus_page .box2 a {
+		display: inline-block;
+		width: 60%;
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.contactus_page .address_wrapper {
+		padding-top: 30px;
+	}
+	.contactus_page .address_wrapper .city span {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.contactus_page .address_wrapper .detail {
+		font-size: 12px;
+		min-height: 20px;
+		line-height: 20px;
+		margin-top: 10px;
+	}
+	.contactus_page .address_wrapper .text {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+	.contactus_page .contact_box .first {
+		padding-top: 0px;
+	}
+	.contactus_page .contact_box .second {
+		margin-top: 0px;
+	}
+	.contactus_page .contact_box .second dt {
+		font-size: 14px;
+	}
+	.contactus_page .contact_box .first .name {
+		font-size: 14px;
+	}
+	.contactus_page .contact_box .first .phone {
+		font-size: 12px;
+	}
+	/*加入我们*/
+	.joinus_page .banner {
+		background-size: cover;
+	}
+	.joinus_page .banner .text {
+		font-size: 14px;
+		line-height: 24px;
+		margin-left: 25px;
+		margin-top: 35px;
+	}
+	.joinus_page .banner .text2 span {
+		font-size: 16px;
+	}
+	.joinus_page h2 {
+		font-size: 15px;
+	}
+	.joinus_page .welfare_box {
+		padding: 0 14px;
+	}
+	.joinus_page .welfare {
+		margin-bottom: 26px;
+	}
+	.joinus_page .welfare_box h2 {
+		margin: 37px 0 33px;
+	}
+	.joinus_page .welfare .tit {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.joinus_page .welfare .text_box {
+		width: 87%;
+	}
+	.joinus_page .welfare .detail {
+		font-size: 12px;
+		margin-top: 0px;
+		width: 100%;
+	}
+	.joinus_page .welfare .icon {
+		width: 36px;
+		height: 31px;
+		line-height: 31px;
+	}
+	.joinus_page .welfare_2, .joinus_page .welfare_4 {
+		margin-left: 0px;
+	}
+	.joinus_page .welfare_1 img {
+		width: 27px;
+	}
+	.joinus_page .welfare_2 img {
+		width: 27px;
+	}
+	.joinus_page .welfare_3 img {
+		width: 22px;
+	}
+	.joinus_page .welfare_4 img {
+		width: 26px;
+	}
+	.joinus_page .joinus_box h2 {
+		line-height: 70px;
+	}
+	.joinus_page .joinus_box .content {
+		height: auto;
+	}
+	.joinus_page .joinus_box .bg_color {
+		background: #000;
+	}
+	.joinus_page .joinus_box .text {
+		font-size: 12px;
+		line-height: 24px;
+		padding: 20px 10px;
+	}
+	.joinus_page .company_info ul {
+		margin: 29px 0px 30px;
+	}
+	.joinus_page .company_info li {
+		font-size: 12px;
+		height: auto;
+	}
+	.joinus_page .company_info .title .icon {
+		right: 6px;
+	}
+	.joinus_page .company_info .info {
+		padding-left: 0px;
+	}
+	.joinus_page .company_info .width1 {
+		width: 45%;
+	}
+	.joinus_page .company_info .width2 {
+		width: 22%;
+	}
+	.joinus_page .company_info .title {
+		padding: 6px 0 6px 6px;
+		font-size: 12px;
+	}
+	.joinus_page .company_info li.tit {
+		padding-left: 6px;
+	}
+	/*产品中心*/
+	.product_page .banner {
+		background-size: cover;
+	}
+	.product_page {
+		padding-bottom: 0px;
+	}
+	.product_page h2 {
+		font-size: 16px;
+		line-height: 86px;
+	}
+	.product_page dl {
+		width: 45%;
+		margin-right: 0px;
+		height: auto;
+		font-size: 14px;
+	}
+	.product_page dl img {
+		width: 85%;
+	}
+	.product_page dd {
+		line-height: 50px;
+	}
+	.sencond_menu_box dd {
+		font-size: 14px;
+	}
+	/*机器人-并联型*/
+	.parallel_page .banner {
+		background-size: cover;
+	}
+	.parallel_page .breadcrumb_ol .first {
+		font-size: 16px;
+	}
+	.parallel_page .breadcrumb_ol>li+li:before {
+		font-size: 14px;
+	}
+	.parallel_page .breadcrumb_ol {
+		height: 20px;
+		line-height: 20px;
+		font-size: 14px;
+		margin-top: 20px;
+	}
+	.parallel_page .introduce1_box .row {
+		padding-left: 0px;
+	}
+	.parallel_page .left_box {
+		margin-top: 30px;
+		text-align: center;
+		position: relative;
+	}
+	.parallel_page .left_box .download_btn {
+		position: absolute;
+		right: 0px;
+		top: -54px;
+		font-size: 14px;
+		width: 100px;
+		height: 26px;
+		line-height: 26px;
+		margin-bottom: 0px;
+	}
+	.parallel_page .left_box .tit {
+		font-size: 15px;
+	}
+	.parallel_page .left_box .detail {
+		font-size: 12px;
+		line-height: 25px;
+		margin-top: 10px;
+	}
+	.parallel_page .right_box {
+		float: none;
+		width: 100%;
+	}
+	.parallel_page .right_box .icon img {
+		width: 32px;
+	}
+	.parallel_page .right_box .telephone span {
+		font-size: 16px;
+	}
+	.parallel_page .right_box .tab_content {
+		font-size: 14px;
+	}
+	.parallel_page .right_box .tab span.cur, .parallel_page .right_box .tab span:hover {
+		font-size: 16px;
+	}
+	.parallel_page .right_box .tab span {
+		font-size: 14px;
+	}
+	.parallel_page .right_box .telephone {
+		margin-top: 15px;
+	}
+	.parallel_page .right_box .tab {
+		margin-top: 5px;
+	}
+	.parallel_page .introduce2_box h2 {
+		font-size: 15px;
+		margin: 0px;
+		line-height: 70px;
+	}
+	.parallel_page .text_box {
+		float: none;
+		padding: 20px 10px;
+		width: 95%;
+		margin: 10px auto;
+	}
+	.parallel_page .text_box .tit {
+		font-size: 14px;
+		height: 26px;
+		line-height: 26px;
+		margin-top: 10px;
+	}
+	.parallel_page .text_box .detail {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.parallel_page .introduce3_box {
+		margin-top: 22px;
+		margin-bottom: 25px;
+	}
+	.parallel_page .introduce3_box img {
+		width: 100%;
+	}
+	.parallel_page .text_box2 .tit {
+		font-size: 15px;
+		line-height: 40px;
+	}
+	.parallel_page .text_box2 .detail {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.parallel_page .introduce4_box .tit {
+		font-size: 15px;
+		line-height: 40px;
+	}
+	.parallel_page .introduce4_box .detail {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.parallel_page .introduce4_box {
+		padding: 30px 0 50px;
+	}
+	.parallel_page .introduce5_box {
+		padding-top: 30px;
+		padding-bottom: 340px;
+	}
+	.parallel_page .introduce5_box .tit {
+		font-size: 15px;
+		line-height: 40px;
+	}
+	.parallel_page .introduce5_box .detail {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.parallel_page .introduce6_box .detail img {
+		width: 90%;
+	}
+	.parallel_page .introduce6_box .tit {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.parallel_page .standard_box .tit {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.parallel_page .slider_box {
+		padding: 20px 0 10px;
+	}
+	.parallel_page .introduce1_box {
+		padding-bottom: 28px;
+	}
+	.slider_box .pic_list li {
+		display: inline-block;
+		width: 31.2%;
+		margin-right: 2%;
+	}
+	.slider_box .pic_list li:last-child {
+		margin-right: 0px;
+	}
+	.slider_box .pic_list li img {
+		width: 100%;
+		height: auto;
+	}
+	.slider_box .pic_list2 li {
+		width: 45%;
+		margin-right: 5%;
+		margin-bottom: 10px;
+	}
+	.slider_box .pic_list2 li:nth-child(even) {
+		margin-right: 0px;
+	}
+	.parallel_page .standard_box {
+		font-size: 12px;
+		padding-bottom: 30px;
+	}
+	.parallel_page .standard_box .table_title td {
+		height: 30px;
+		line-height: 30px;
+	}
+	/*机器人-串联型*/
+	.series_page .banner {
+		background-size: cover;
+	}
+	.series_page .product_type h2 {
+		font-size: 15px;
+		margin: 0;
+		height: auto;
+		line-height: 70px;
+	}
+	.series_page .product_type .type_box {
+		font-size: 0px;
+		text-align: center;
+	}
+	.series_page .product_type dl {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		height: 114px;
+		margin: 3%;
+		background-size: contain;
+	}
+	.series_page .product_type .dl_margin {
+		margin-top: -20px;
+		margin-left: -0.5%;
+	}
+	.series_page .product_type img {
+		width: 30px;
+	}
+	.series_page .product_type dd {
+		font-size: 12px;
+	}
+	.series_page .product_type dt {
+		height: auto;
+		margin-top: 20px;
+	}
+	.series_page .profit_box {
+		margin-top: 0px;
+	}
+	.series_page .profit_box h2 {
+		font-size: 16px;
+		line-height: 70px;
+	}
+	.series_page .profit_box dl {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		height: 78px;
+		padding: 25px 0;
+		margin-bottom: 10px;
+	}
+	.series_page .profit_box .dl_1, .series_page .profit_box .dl_2, .series_page .profit_box .dl_3, .series_page .profit_box .dl_4 {
+		background-size: cover;
+	}
+	.series_page .profit_box dt {
+		width: 80px;
+		font-size: 14px;
+		line-height: 78px;
+	}
+	.series_page .profit_box dd {
+		font-size: 12px;
+		margin-top: 12px;
+		margin-left: 20px;
+		line-height: 22px;
+	}
+	.series_page .range_box h2 {
+		font-size: 15px;
+		margin: 0px;
+		line-height: 70px;
+	}
+	.series_page .range_box .range img {
+		width: 100%;
+	}
+	.series_page .standard_box h2 {
+		font-size: 15px;
+		margin: 0px;
+		line-height: 70px;
+	}
+	.series_page .standard_box .table_title td {
+		height: 30px;
+		line-height: 30px;
+	}
+	.series_page .standard_box td {
+		font-size: 12px;
+	}
+	.series_page .standard_box td:first-child {
+		width: 280px;
+	}
+	.series_page .profit_box span {
+		font-size: 15px;
+	}
+	.series_page .standard_box {
+		padding-bottom: 30px;
+	}
+	/*坐标型-移液机器人*/
+	.pipetting_page .banner {
+		background-size: cover;
+	}
+	.plane_page .plane_feature {
+		margin-top: 0px;
+	}
+	.pipetting_page.plane_page .plane_spec table {
+		margin-bottom: 0px;
+	}
+	/*坐标型-平面门架*/
+	.plane_page .plane_show ul {
+		margin-left: 0px;
+		padding: 20px 0;
+	}
+	.plane_page .plane_show li {
+		float: none;
+		display: inline-block;
+		width: 31.2%;
+		margin-right: 2%;
+		text-align: center;
+	}
+	.plane_page .plane_show img {
+		width: 100%;
+	}
+	.plane_page .plane_use {
+		padding: 0 10px 50px;
+		height: auto;
+	}
+	.plane_page .plane_use h2 {
+		font-size: 15px;
+		margin-top: 0px;
+		line-height: 70px;
+	}
+	.plane_page .plane_use .box1 {
+		margin-top: 0px;
+	}
+	.plane_page .plane_use h4 {
+		font-size: 14px;
+	}
+	.plane_page .plane_use p {
+		font-size: 12px;
+	}
+	.plane_page .plane_use .box2 img {
+		width: 80%;
+	}
+	.plane_page .plane_feature {
+		height: auto;
+	}
+	.plane_page .plane_feature li {
+		float: none;
+	}
+	.plane_page .plane_feature h2 {
+		font-size: 15px;
+		height: 70px;
+		line-height: 70px;
+	}
+	.plane_page .plane_feature h4 {
+		font-size: 14px;
+		margin-top: 0px;
+	}
+	.plane_page .plane_feature p {
+		font-size: 12px;
+		margin-top: 10px;
+		line-height: 20px;
+	}
+	.plane_page .plane_feature .center {
+		margin: 10px;
+	}
+	.plane_page .plane_feature li {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+		height: auto;
+		padding: 10px 0;
+	}
+	.plane_page .plane_feature .center {
+		margin: 0px;
+		margin-bottom: 10px;
+	}
+	.plane_page .plane_feature img {
+		margin-top: 10px;
+		width: 16px;
+	}
+	.plane_page .plane_spec {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+	.plane_page .plane_spec h2 {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.plane_page .plane_spec table {
+		width: 100%;
+		font-size: 12px;
+		margin: 0px auto;
+	}
+	.plane_page .plane_spec td {
+		padding-left: 15px;
+	}
+	.plane_page .plane_spec .table_title td {
+		height: 30px;
+		line-height: 30px;
+	}
+	/*软件服务-镁伽开发套件*/
+	.suite_page .banner {
+		background-size: cover;
+	}
+	.suite_page .container {
+		padding: 0 10px;
+	}
+	.suite_page .content_box1 {
+		background: #000;
+		padding-bottom: 40px;
+	}
+	.suite_page .content_box1 h2 {
+		font-size: 15px;
+		margin: 0;
+		height: auto;
+		line-height: 70px;
+	}
+	.suite_page .content_box1 p {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 0px;
+	}
+	.suite_page .content_box2 h2 {
+		font-size: 16px;
+		margin: 32px 0;
+	}
+	.suite_page .h4 span {
+		width: 80px;
+	}
+	.suite_page .h4 {
+		font-size: 14px;
+		height: 26px;
+		line-height: 26px;
+	}
+	.suite_page .content_box2 p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.suite_page .content_box2 .content {
+		padding: 0px 0px 20px;
+	}
+	.suite_page .content_box2 ul {
+		margin-left: 0px;
+	}
+	.suite_page .content_box2 li {
+		width: 48%;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		padding: 36px 0px;
+		margin: 0 1%;
+		margin-bottom: 10px;
+	}
+	.suite_page .content_box2 li div {
+		margin: 0 auto;
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		width: 100px;
+	}
+	.suite_page .content_box3 p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.suite_page .content_box3 .h4 {
+		height: 35px;
+		line-height: 35px;
+	}
+	.suite_page .content_box3 ul {
+		width: 100%;
+	}
+	.suite_page .content_box3 li {
+		width: 48%;
+		margin: 10px 1%;
+		font-size: 12px;
+		height: 54px;
+		line-height: 50px;
+	}
+	.suite_page .content_box3 li span {
+		border-top: 2px solid #fff;
+	}
+	.suite_page .content_box4 {
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+	.suite_page .content_box4 .h4 {
+		height: 35px;
+		line-height: 35px;
+	}
+	.suite_page .content_box4 p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.suite_page .content_box4 img {
+		width: 80%;
+	}
+	/*软件服务-镁伽基础软件架构*/
+	.soft_page .banner {
+		background-size: cover;
+	}
+	.soft_page .container {
+		padding: 0 10px;
+	}
+	.soft_page .content_box1 {
+		background: #000;
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
+	.soft_page .h2_box1 {
+		font-size: 15px;
+		line-height: 70px;
+		margin: 0px;
+	}
+	.soft_page h2 {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.soft_page .p_box1 {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.soft_page .ul_box .tit {
+		float: none;
+		width: 100%;
+		margin-right: 0px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+	}
+	.soft_page .ul_box .info {
+		float: none;
+		height: auto;
+		width: 100%;
+		padding-bottom: 5px;
+	}
+	.soft_page .ul_box .info div {
+		display: block;
+		float: none;
+		width: 95%;
+		margin: 0px auto;
+		font-size: 12px;
+		line-height: 20px;
+		padding: 20px 0px;
+		background: #181818;
+		margin-bottom: 5px;
+	}
+	.soft_page .ul_box span {
+		display: none
+	}
+	.soft_page .ul_box {
+		margin: 30px 0 0px;
+	}
+	.soft_page .feature_text {
+		font-size: 12px;
+		line-height: 20px;
+		margin: 20px 0 40px;
+	}
+	.soft_page .feature_table {
+		width: 100%;
+		font-size: 12px;
+	}
+	.soft_page .feature_table td {
+		height: 30px;
+		line-height: 30px;
+	}
+	.soft_page .feature_table .second td {
+		line-height: 25px;
+	}
+	.soft_page h2.h2_tit {
+		line-height: 70px;
+	}
+	.soft_page .feature_wrapper ul {
+		margin-left: 0px;
+		margin-bottom: 30px;
+	}
+	.soft_page .feature_wrapper li {
+		width: 100%;
+		height: 36px;
+		line-height: 36px;
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	.soft_page .feature_wrapper span {
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+		font-size: 16px;
+		margin: 5px 10px 0 5px;
+	}
+	/*运动控制*/
+	.motion_page .banner {
+		background-size: cover;
+	}
+	.motion_page h2 {
+		font-size: 16px;
+		line-height: 86px;
+	}
+	/*运动控制-直流驱控器*/
+	.direct_page .banner {
+		background-size: cover;
+	}
+	.direct_page .content_box1 {
+		padding: 0 0px 20px;
+	}
+	.direct_page .content_box1 h3 {
+		font-size: 15px;
+		margin: 0;
+		line-height: 70px;
+	}
+	.direct_page .content_box1 p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.direct_page .content_box2 h3 {
+		font-size: 15px;
+		line-height: 70px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.direct_page .content_box2 li {
+		float: none;
+		width: 100%;
+		margin: 0px auto 10px;
+		height: auto;
+	}
+	.direct_page .content_box2 li:last-child {
+		margin-right: auto;
+	}
+	.direct_page .content_box2 .tit {
+		font-size: 14px;
+		height: auto;
+		line-height: 25px;
+	}
+	.direct_page .content_box2 .text {
+		font-size: 12px;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+	.direct_page .content_box2 .info {
+		padding: 10px 0 15px;
+	}
+	.direct_page .content_box2 .jia {
+		font-size: 14px;
+		margin: 10px 0px;
+	}
+	.direct_page .content_box2 ul {
+		margin-bottom: 0px;
+	}
+	.direct_page .content_box3 h3 {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.direct_page .content_box3 table {
+		width: 100%;
+		font-size: 12px;
+		margin: 0 auto;
+	}
+	.direct_page .content_box3 td:first-child {
+		width: 40%;
+	}
+	.direct_page .content_box3 td {
+		line-height: 26px;
+	}
+	.direct_page .content_box3 td.txt {
+		line-height: 20px;
+		padding: 8px 0;
+	}
+	.direct_page .content_box3 .table_title {
+		height: 32px;
+		line-height: 32px;
+	}
+	.direct_page .content_box3 {
+		padding-bottom: 30px;
+	}
+	.direct_page .img_box img {
+		width: 31.2%;
+		margin-right: 2%;
+	}
+	.direct_page .img_box img:last-child {
+		margin: 0px;
+	}
+	/*运动控制-电机驱动器*/
+	.electric_page .banner {
+		background-size: cover;
+	}
+	.electric_page sup {
+		font-size: 50%;
+		top: -0.5em;
+	}
+	.electric_page .electric_box2 {
+		padding: 0 0px 20px;
+	}
+	.electric_page .electric_box2 h3 {
+		margin-top: 0px;
+		font-size: 15px;
+		line-height: 50px;
+	}
+	.electric_page .electric_box2 p {
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.electric_page .electric_box2 span {
+		width: 100%;
+		border: 0px;
+		font-size: 12px;
+		height: 20px;
+		line-height: 20px;
+	}
+	.electric_page .electric_box2 img {
+		width: 100%;
+	}
+	.electric_page .electric_box3 {
+		padding: 0 10px;
+	}
+	.electric_page .electric_box3 h3 {
+		font-size: 15px;
+		line-height: 70px;
+		margin-bottom: 0px;
+	}
+	.electric_page .electric_box3 .div_box {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.electric_page .electric_box3 dl {
+		width: 48%;
+		margin: 0 1% 20px;
+	}
+	.electric_page .electric_box3 img {
+		width: 100%;
+	}
+	.electric_page .electric_box3 dd {
+		font-size: 12px;
+		height: 26px;
+		line-height: 26px;
+		margin-top: 10px;
+	}
+	.electric_page .electric_box4 {
+		padding: 20px 0 16px;
+		width: 96%;
+		overflow-x: auto;
+		margin: 0 auto;
+	}
+	.electric_page .electric_box4 table {
+		width: 600px;
+		font-size: 12px;
+	}
+	.electric_page .electric_box4 td:first-child {
+		width: 160px;
+	}
+	.electric_page .electric_box5 {
+		padding: 0 0px 50px;
+		margin-bottom: 0px
+	}
+	.electric_page .electric_box5 h3 {
+		font-size: 15px;
+		margin-top: 30px;
+	}
+	.electric_page .electric_box5 h4 {
+		font-size: 14px;
+	}
+	.electric_page .electric_box5 p {
+		font-size: 12px;
+		margin-top: 12px;
+		line-height: 20px;
+		margin-bottom: 25px;
+	}
+	.electric_page .electric_box5 .core1 {
+		margin-top: 30px;
+	}
+	.electric_page .electric_box5 .core1 img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.electric_page .electric_box5 .core2 {
+		margin-top: 40px;
+	}
+	.electric_page .electric_box5 .core2 img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.electric_page .electric_box5 .core3 {
+		margin-top: 30px;
+	}
+	.electric_page .electric_box5 .img_1 {
+		width: 100%;
+	}
+	.electric_page .core3 .img_box img {
+		width: 42%;
+	}
+	.electric_page .core3 .img_box {
+		margin-top: 15px;
+	}
+	.electric_page .core4 {
+		margin-top: 30px;
+	}
+	.electric_page .core4 img {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.electric_page .core5 {
+		margin-top: 30px;
+	}
+	.electric_page .core5 .txt_box {
+		margin-left: 0px;
+		width: 100%;
+	}
+	.electric_page .core5 .txt_box h4 {
+		text-align: center;
+	}
+	.electric_page .core5 .txt_box p {
+		line-height: 20px;
+	}
+	.electric_page .core5 .img_box {
+		float: none;
+		border: none;
+		padding-left: 0px;
+		margin: 30px 0px;
+	}
+	.electric_page .core5 .img_box img {
+		width: 80%;
+	}
+	.electric_page .electric_box4 td {
+		height: 26px;
+		line-height: 26px;
+	}
+	.electric_page .electric_box4 td.txt {
+		line-height: 20px;
+		padding: 6px 0px;
+	}
+	.electric_page .electric_box4 .title1 {
+		height: 30px;
+		line-height: 30px;
+	}
+	.electric_page .electric_box4 .title2 {
+		height: 28px;
+		line-height: 28px;
+	}
+	/*运动控制-运动控制工作站*/
+	.workstation_page .banner {
+		background-size: cover;
+	}
+	.workstation_page .content_box1 {
+		padding: 0 0px 30px;
+	}
+	.workstation_page .content_box1 h3 {
+		font-size: 15px;
+		line-height: 70px;
+		margin-top: 0px;
+	}
+	.workstation_page .content_box1 p {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.workstation_page .content_box1 li {
+		float: none;
+		width: 100%;
+		padding: 20px 10px;
+		height: auto;
+		margin-bottom: 10px;
+		box-sizing: border-box;
+	}
+	.workstation_page .content_box1 .tit {
+		margin-top: 0px;
+		font-size: 14px;
+		height: auto;
+	}
+	.workstation_page .content_box1 .detail {
+		margin-top: 0px;
+		padding-top: 10px;
+		line-height: 20px;
+	}
+	.workstation_page .content_box1 td {
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		border: 3px solid #222;
+	}
+	.workstation_page .content_box1 table {
+		width: 100%;
+	}
+	.workstation_page .content_box1 .width1 {
+		width: 26%;
+	}
+	.workstation_page .content_box1 .width2 {
+		width: 26%;
+	}
+	.workstation_page .content_box1 .width3 {
+		width: 20%;
+	}
+	.workstation_page .content_box1 .width4 {
+		width: 20%;
+	}
+	.workstation_page .content_box2 {
+		padding: 20px 5px 30px;
+		text-align: center;
+	}
+	.workstation_page .content_box2 p {
+		float: none;
+		font-size: 14px;
+		margin: 0px;
+		line-height: 22px;
+		margin-bottom: 15px;
+	}
+	.workstation_page .content_box2 img {
+		width: 90%;
+	}
+	.workstation_page .content_box3 p {
+		font-size: 14px;
+		line-height: 50px;
+	}
+	.workstation_page .content_box3 .detail>div {
+		width: 100px;
+		height: 100px;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.workstation_page .content_box3 .type1 {
+		border: 6px solid #a3a3a3;
+	}
+	.workstation_page .content_box3 .type1 span {
+		margin-top: 22px;
+	}
+	.workstation_page .content_box3 .type2 {
+		margin: 0px;
+		border: 6px solid #8f592e;
+		margin: 0 5px;
+	}
+	.workstation_page .content_box3 div.type3 {
+		border: 6px solid #232323;
+		line-height: 88px;
+	}
+	.workstation_page .content_box3 .type2 span {
+		margin-top: 27px;
+	}
+	.workstation_page .content_box4 {
+		margin: 0px 5px 30px;
+	}
+	.workstation_page .content_box4 h3 {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.workstation_page .content_box4 p {
+		font-size: 12px;
+		height: auto;
+		line-height: 16px;
+		margin-bottom: 25px;
+	}
+	.workstation_page .content_box4 img {
+		width: 100%;
+	}
+	/*运动控制-智能网关*/
+	.gateway_page .banner {
+		background-size: cover;
+	}
+	.gateway_page .lease_page {
+		padding-top: 0px;
+	}
+	.gateway_page .content_box1 {
+		padding: 0 10px 30px;
+	}
+	.gateway_page .content_box1 h3 {
+		font-size: 16px;
+		line-height: 60px;
+	}
+	.gateway_page .content_box1 li {
+		float: none;
+		display: inline-block;
+		font-size: 12px;
+		height: 90px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.gateway_page .content_box1 li:nth-child(odd) {
+		margin-right: 0px;
+	}
+	.gateway_page .content_box1 li hr {
+		width: 50px;
+		margin: 25px auto 15px;
+	}
+	.gateway_page .content_box2 h3 {
+		font-size: 15px;
+		line-height: 30px;
+		margin-top: 30px;
+	}
+	.gateway_page .content_box2 dl {
+		display: inline-block;
+		width: 30%;
+		margin-right: 3%;
+	}
+	.gateway_page .content_box2 .type_box {
+		font-size: 0px;
+		text-align: center;
+	}
+	.gateway_page .content_box2 img {
+		width: 90%;
+	}
+	.gateway_page .content_box2 dd {
+		font-size: 12px;
+		height: auto;
+		padding-top: 6px;
+		margin-top: 8px;
+	}
+	.gateway_page .content_box2 .second {
+		margin: 25px auto;
+	}
+	.gateway_page .content_box3 {
+		padding: 50px 10px 30px;
+	}
+	.gateway_page .content_box3 .table {
+		width: 100%;
+		overflow-x: auto;
+	}
+	.gateway_page .content_box3 table {
+		width: 150%;
+	}
+	.gateway_page .content_box3 td {
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.gateway_page .content_box3 .table_title td {
+		line-height: 35px;
+	}
+	/*软件服务*/
+	.soft_service .sencond_menu_box.two_dl dl {
+		width: 49%;
+		margin-right: 2%;
+	}
+	.soft_service .sencond_menu_box dl:last-child {
+		margin-right: 0px;
+	}
+	.soft_service .sencond_menu_box {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+	/*生命科学*/
+	.sencond_menu_box {
+		margin-top: 20px;
+	}
+	.margin_top_0 {
+		margin-top: 0px;
+	}
+	.life_sciences .text_box {
+		padding: 30px 0px;
+	}
+	.life_sciences h3 {
+		font-size: 16px;
+		height: 16px;
+		line-height: 16px;
+		margin: 25px 0 15px;
+	}
+	.life_sciences .content p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+	.life_sciences .content {
+		padding: 15px 0 0px;
+	}
+	.life_sciences .content li {
+		width: 49%;
+		margin-right: 2%;
+		height: auto;
+		padding-bottom: 20px;
+		margin-bottom: 15px;
+	}
+	.life_sciences .content li:nth-child(even) {
+		margin-right: 0;
+	}
+	.life_sciences .info .tit {
+		font-size: 14px;
+	}
+	.life_sciences .info {
+		width: 118px;
+		margin-top: 25px;
+	}
+	.life_sciences .info .text {
+		margin-top: 15px;
+	}
+	.life_sciences .info a {
+		margin-top: 6px;
+	}
+	.sencond_menu_box.four_dl dl {
+		width: 48%;
+		margin-right: 2%;
+	}
+	.sencond_menu_box dl {
+		margin-bottom: 10px;
+	}
+	.sencond_menu_box dl img {
+		width: 90%;
+	}
+	.sencond_menu_box.four_dl dl:nth-child(even), .sencond_menu_box.three_dl dl:last-child {
+		margin-right: 0px;
+	}
+	.sencond_menu_box.three_dl dl {
+		width: 30%;
+		margin-right: 2%;
+	}
+	.sencond_menu_box dd {
+		font-size: 14px;
+		line-height: 40px;
+	}
+	/*生命科学-样本后处理*/
+	.life_sciences_d .text_box {
+		width: 97%;
+		padding: 0 10px 20px;
+	}
+	.life_sciences_d .content_box2 .img_box {
+		float: none;
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+	}
+	.life_sciences_d .content_box2 .img_box img {
+		width: 100%;
+	}
+	.life_sciences_d .text_box .tit {
+		padding-top: 0px;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.life_sciences_d .text_box li span {
+		margin-right: 5px;
+	}
+	.life_sciences_d .content_box2 .text_box2 {
+		margin-top: 0px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a h3 {
+		font-size: 15px;
+		line-height: 60px;
+	}
+	.life_sciences_a .content_box1 {
+		padding: 20px 0px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.life_sciences_a .content_box1 .text {
+		margin-bottom: 0px;
+	}
+	.life_sciences_a .science_a_list ul {
+		width: 96%;
+	}
+	.life_sciences_a .science_a_list li {
+		height: auto;
+		padding: 20px 10px;
+	}
+	.life_sciences_a .img_box {
+		float: none;
+	}
+	.life_sciences_a .img_box img {
+		width: 100%;
+	}
+	.life_sciences_a .text_box {
+		float: none;
+	}
+	.life_sciences_a .science_a_list .text_box .text {
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+	.life_sciences_a .science_a_list .text_box .tit {
+		font-size: 14px;
+		height: 14px;
+		line-height: 14px;
+		margin-bottom: 6px;
+	}
+	.life_sciences_a .science_a_list .text_box .info span {
+		margin-right: 10px;
+	}
+	/*生命科学-移液加样*/
+	.life_sciences_b .banner .text {
+		height: 35px;
+		line-height: 35px;
+	}
+	.life_breadcrumb .first {
+		font-size: 16px;
+	}
+	.life_breadcrumb>li+li:before {
+		font-size: 14px;
+	}
+	.life_breadcrumb {
+		font-size: 14px;
+	}
+	.life_sciences_b h3 {
+		margin-top: 0px;
+	}
+	.life_sciences_b h3 {
+		font-size: 15px;
+		line-height: 50px;
+	}
+	.life_sciences_b .content_box1 {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 0px 0 10px;
+	}
+	.life_sciences_b .content_box1 p {
+		margin-bottom: 16px;
+		font-size: 12px;
+	}
+	.life_sciences_b .content_box1 hr {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.life_sciences_b .joinus_page .company_info li {
+		padding: 0px;
+		margin-bottom: 1px;
+	}
+	.life_sciences_b .joinus_page .company_info .title {
+		padding: 6px;
+	}
+	.life_sciences_b .joinus_page .company_info li {
+		height: auto;
+	}
+	.life_sciences_b .joinus_page .company_info .title .icon {
+		margin-right: 6px;
+		right: 0px;
+	}
+	.life_sciences_b .company_info .tit1 {
+		color: #f0831e;
+	}
+	.life_sciences_b .company_info .tit2 {
+		font-size: 12px;
+	}
+	.life_sciences_b .joinus_page .company_info .info {
+		padding: 5px;
+	}
+	.life_sciences_b .joinus_page .company_info span {
+		margin-right: 5px;
+	}
+	.life_sciences_b .joinus_page .company_info ul {
+		margin-top: 10px;
+	}
+	.life_sciences_b .joinus_page {
+		padding-bottom: 50px;
+	}
+	.make_sciences_b .content_box2 li:nth-child(odd) {
+		margin-right: 0px;
+	}
+	/*生命科学-样本运输*/
+	.life_sciences_c .content_box2 {
+		margin-top: 0px;
+		padding: 20px 6px 0;
+	}
+	.life_sciences_c .content_box2 img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.life_sciences_c .text_box {
+		width: 98%;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.life_sciences_c .text_box .tit {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.life_sciences_c .text_box li span {
+		margin-right: 10px;
+	}
+	/*生命科学-样本后处理*/
+	.life_sciences_c .content_box2_1 {
+		padding-top: 20px;
+	}
+	/*智能制造*/
+	.sencond_menu_box dt {
+		margin-top: 10px;
+	}
+	.make_sciences .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.make_sciences .content {
+		padding: 0;
+	}
+	.make_sciences .title {
+		font-size: 14px;
+		margin-bottom: 16px;
+	}
+	.make_sciences .title span {
+		width: 10px;
+		margin: 7px 5px;
+	}
+	.make_sciences .content_box1 {
+		padding: 25px 10px 0 10px;
+	}
+	.make_sciences .content_box1 p {
+		font-size: 12px;
+		line-height: 20px;
+		margin-bottom: 30px;
+	}
+	/*智能制造-测试自动化*/
+	.make_sciences_b .life_sciences_b .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.make_sciences_b .content_box2 {
+		margin-top: 0px;
+		padding: 20px 10px 10px;
+	}
+	.make_sciences_b .content_box2 li {
+		width: 100%;
+		padding: 20px 10px 20px;
+		height: auto;
+		margin-bottom: 12px;
+	}
+	.make_sciences_b .content_box2 li .tit {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.make_sciences_b .content_box2 li .text {
+		font-size: 12px;
+	}
+	/*智能制造-装配自动化*/
+	.make_sciences_a .life_sciences_b .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.life_sciences_b .content_box1 .img_box {
+		width: 85%;
+	}
+	.life_sciences_b .content_box1 .img_box img {
+		max-width: 100%;
+	}
+	.life_sciences_b .content_box1 .img_box {
+		margin: 30px auto 0;
+	}
+	.make_sciences_c .list {
+		width: 95%;
+		margin-top: 25px;
+	}
+	.make_sciences_c .list li {
+		height: auto;
+		padding: 15px 10px;
+		margin-bottom: 14px;
+	}
+	.make_sciences_c .list li .tit {
+		font-size: 14px;
+	}
+	.make_sciences_c .list li .text {
+		font-size: 12px;
+		margin-top: 6px;
+	}
+	/*智能零售*/
+	.retail_sciences .life_sciences .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.retail_sciences .content_box1 {
+		padding: 20px 6px 30px;
+		margin-bottom: 30px;
+	}
+	.retail_sciences .img_box {
+		float: none;
+		width: 100%;
+		height: 210px;
+	}
+	.retail_sciences .text_box {
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 100%;
+		padding: 15px 0;
+	}
+	.retail_sciences .text_box .tit {
+		text-align: center;
+	}
+	.retail_sciences .text_box a {
+		margin: 10px auto;
+	}
+	.retail_sciences .text_box p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	/*智能零售-调酒机器人*/
+	.retail_sciences_a .life_sciences_b .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.retail_sciences_a .content_box2 {
+		padding: 20px 6px 0;
+	}
+	.retail_sciences_a .content_box2 img {
+		width: 100%;
+	}
+	.retail_sciences_a .content_box3 {
+		font-size: 12px;
+		line-height: 20px;
+		margin: 20px 6px;
+	}
+	.retail_sciences_a .content_box4 {
+		padding-top: 25px;
+	}
+	.retail_sciences_a .content_box4 .info {
+		width: 100%;
+		padding: 0 6px;
+	}
+	.retail_sciences_a .content_box4 dl {
+		width: 49%;
+		height: 118px;
+		padding-left: 10px;
+		margin-bottom: 10px;
+	}
+	.retail_sciences_a .content_box4 dl:nth-child(odd) {
+		margin-right: 2%;
+	}
+	.retail_sciences_a .content_box4 dt {
+		font-size: 14px
+	}
+	.retail_sciences_a .content_box4 dd {
+		font-size: 12px;
+	}
+	.retail_sciences_a .life_sciences_b .content_box1 {
+		padding-top: 10px;
+	}
+	.retail_sciences_a .life_sciences_b .content_box1 p {
+		margin-bottom: 0px;
+	}
+	/*生命科学*/
+	.life_sciences .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_b .banner {
+		height: 150px;
+		background-size: cover;
+	}
+	.life_sciences_a .content_box2 {
+		margin-top: 0px;
+		padding: 20px 6px;
+	}
+	.safe_0{
+	font-size: 16px;
+	}
+	/*.life_sciences_a dl{ display: block; width: 100%; height: auto; margin-bottom: 15px; padding: 20px 10px;}
+	.life_sciences_a dt{ font-size: 14px;}
+	.life_sciences_a dd{ margin-top: 10px;}
+	.life_sciences_a dd span{ margin-right: 5px;}*/
+}

@@ -1,0 +1,200 @@
+.fishBone * {
+    margin: 0;
+    padding: 0;
+}
+
+.fishBone ul {
+    overflow: visible !important;
+}
+
+.fishBone li.line-first {
+    list-style: none;
+    line-height: 44px
+}
+
+.fishBone {
+    color: #767676;
+    width: 998px;
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+    font-size: 12px;
+    margin: 0px auto;
+}
+    .fishBone .wrapper {
+        padding: 0 0px;
+        margin: auto;
+    }
+    .fishBone .item {
+        position: relative;
+        width: 253px;
+        height: 320px;
+        display: inline-block;
+        text-align: center;
+        margin-left: -12px;
+    }
+
+        .fishBone .item .first {
+            line-height: 2em;
+        }
+
+        .fishBone .item .title {
+            border-left: none;
+        }
+
+            .fishBone .item .title .title-left {
+                display: inline-block;
+                width: 15px;
+                line-height: 2.1em;
+                background: url("../img/title.png") no-repeat 0 0;
+                font-size: 14px;
+            }
+
+            .fishBone .item .title .title-center {
+                display: inline-block;
+                background: url("../img/title.png") repeat-x 0 -600px;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 2.1em;
+                color: white;
+            }
+
+            .fishBone .item .title .title-right {
+                display: inline-block;
+                width: 15px;
+                line-height: 2.1em;
+                background: url("../img/title.png") no-repeat 0 -1200px;
+                font-size: 14px;
+            }
+
+        .fishBone .item .title {
+            display: block;
+            position: relative;
+            left: -33px;
+            background: url(../img/line-point.png) no-repeat 12px -212px;
+        }
+
+        .fishBone .item.top .title {
+        }
+
+        .fishBone .item.bottom .title {
+            bottom: 0;
+        }
+
+        .fishBone .item .content {
+            /*padding-left: 12px;*/
+            position: absolute;
+            width: 100%;
+        }
+
+        .fishBone .item.top .content {
+            top:0px;
+        }
+
+        .fishBone .item.bottom .content {
+            bottom: -14px;
+        }
+                .fishBone .item .content ul li.line-first {
+                    background: url(../images/time_02.png) center no-repeat;
+                }
+                
+                .fishBone .item .content ul li.colorD {
+                    background: url(../images/time_01.png) center no-repeat;
+                }
+                
+                .fishBone .item .content ul li.line-last {
+                    border-left: none;
+                }
+
+    /**prev next*/
+    .fishBone .prev {
+        position: absolute;
+        top: 68px;
+        left: -10px;
+        display: inline-block;
+        width: 20px;
+        height: 40px;
+        background: url(../img/arrow.png) no-repeat -1px -28px;
+        -moz-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+    }
+
+        .fishBone .prev:hover {
+            /*cursor: pointer;
+            background-position-y: -28px;*/
+        }
+
+    .fishBone .next:hover {
+        /*cursor: pointer;
+        background-position-y: -28px;*/
+    }
+
+    .fishBone .next {
+        position: absolute;
+        top: 68px;
+        right: 0;
+        display: inline-block;
+        width: 20px;
+        height: 40px;
+        background: url(../img/arrow.png) no-repeat -19px 13px;
+    }
+    /**line**/
+    .fishBone .line {
+        position: absolute;
+        top: 151px;
+        height: 1px;
+        width: 100%;
+        border-bottom: 1px solid #d8813b;
+    }
+
+    .fishBone .item .line-point {
+        position: absolute;
+        left: 4px;
+        bottom: -4px;
+        display: block;
+        height: 18px;
+        width: 18px;
+        background: url(../img/line-point.png) no-repeat 0px 0px;
+    }
+
+    .fishBone .item.bottom .line-point {
+        top: -6px
+    }
+ .bgmsg {
+    height: 190px;
+    font-size: 25px;
+    line-height: 190px;
+    text-align: center;
+    width: 95%;
+    background-color: #fcfcfc;
+}
+
+ .prevLeftImg {
+    position: absolute;
+    top: 126px;
+    left: -103px;
+    width: 54px;
+    height: 54px;
+    background: url(../images/time_left.png) center no-repeat;
+    display: inline-block;
+    cursor: pointer
+}
+
+ .fishBoneDiv {
+    width: 100%;
+    margin: 0px auto;
+}
+
+ .nextRightImg {
+    position: absolute;
+    top: 126px;
+    right: -103px;
+    width: 54px;
+    height: 54px;
+    background: url(../images/time_right.png) center no-repeat;
+    display: inline-block;
+    cursor: pointer
+} 

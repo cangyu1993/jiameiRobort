@@ -1,0 +1,2515 @@
+@media only screen and (max-device-width: 1024px) {
+	.sencond_menu_box.three_dl dl {
+		width: 25%;
+		margin-right: 3%;
+	}
+	.banner_ipad {
+		margin-bottom: 50px;
+	}
+	.banner_m {
+		margin-bottom: 30px;
+	}
+	.download_content .down_menu .center_tab {
+		margin: -15px 12.5% 0px;
+	}
+}
+
+/*横屏*/
+
+@media only screen and (orientation: landscape) {
+	.navbar-nav {
+		margin-right: 80px;
+	}
+	.carousel-inner>.item {
+		text-align: center;
+	}
+	.carousel-inner>.item a {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.carousel-inner>.item img {
+		width: 100%;
+	}
+	/*产品租赁*/
+	.lease_page .advantage ul {
+		text-align: center;
+		font-size: 0px;
+	}
+	.lease_page .advantage li {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		width: 24%;
+		margin-right: 1%;
+	}
+	.lease_page .lease_bottom .contact_us {
+		width: 440px;
+	}
+	.lease_page .reserved_lease {
+		width: 516px;
+	}
+	.lease_page .reserved_lease .info input {
+		width: 498px;
+	}
+	.lease_page .reserved_lease .info textarea {
+		width: 498px;
+	}
+	.lease_page .reserved_lease .tip_box {
+		width: 498px;
+	}
+	/*下载中心*/
+	.download_tab .tab_right {
+		text-align: center;
+		margin-top: -42px;
+	}
+	.download_tab .tab_right button {
+		margin: 20px;
+	}
+	/*新闻详情*/
+	.news_detail_page .life_breadcrumb {
+		max-width: 90%;
+	}
+	.news_detail_page .breadcrumb_ol {
+		padding-left: 20px;
+	}
+	.news_detail_page .detail .img img {
+		width: 80%;
+	}
+	/*镁伽简介*/
+	.megarobo_info_page .sidebar .hr {
+		margin-left: 6px;
+	}
+	.megarobo_info_page .synopsis {
+		top: 26px;
+	}
+	.megarobo_info_page .content_box1 ul {
+		width: 100%;
+		bottom: -160px;
+	}
+	.megarobo_info_page .content_box1 li {
+		width: 24%;
+		margin-right: 1.25%;
+	}
+	.megarobo_info_page .use_field dl {
+		width: 30%;
+	}
+	.megarobo_info_page .img_box img {
+		max-width: 24%;
+		margin-right: 1.25%;
+	}
+	.megarobo_info_page .time_axis {
+		width: 100%;
+		overflow-y: auto;
+	}
+	.fishBoneDiv {
+		padding-left: 112px;
+	}
+	/*合作伙伴*/
+	.partner_page .bg_box {
+		width: 570px;
+		height: 640px;
+	}
+	.partner_page .text_box {
+		width: 530px;
+	}
+	.partner_page .form_box {
+		height: auto;
+	}
+	.partner_page .join li {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.partner_page .join a {
+		margin-bottom: 34px;
+	}
+	.partner_page .join .btn_box {
+		margin-top: 0px;
+	}
+	/*联系我们*/
+	.contactus_page .contact_box dt {
+		font-size: 25px;
+	}
+	.contactus_page .contact_type .tab_content {
+		font-size: 16px;
+	}
+	.contactus_page .form_box h3 span {
+		width: 224px;
+	}
+	/*加入我们*/
+	.joinus_page .welfare_box {
+		padding: 0 20px;
+	}
+	.joinus_page .welfare .detail {
+		width: 380px;
+	}
+	.joinus_page .welfare_2, .joinus_page .welfare_4 {
+		margin-left: 24px;
+	}
+	.joinus_page .company_info .width2 {
+		width: 280px;
+	}
+	.company_info li.tit {
+		padding-left: 50px;
+	}
+	.joinus_page .company_info .title {
+		padding-left: 50px;
+	}
+	.joinus_page .company_info .width1 {
+		width: 300px;
+	}
+	/*产品中心*/
+	.product_page dl {
+		width: 220px;
+		height: 345px;
+		margin-right: 37px;
+		font-size: 24px;
+	}
+	.product_page dl img {
+		width: 190px;
+	}
+	/*机器人-并联型*/
+	.parallel_page .slider_box {
+		padding: 50px 0;
+	}
+	.picScroll-left .scroll_btn {
+		top: 27px;
+	}
+	.picScroll-left .bd ul li .pic img {
+		width: 259px;
+		height: 168px;
+	}
+	.picScroll-left .bd ul li {
+		margin-right: 38px;
+	}
+	.picScroll-left .bd {
+		margin-left: 68px;
+		width: 860px;
+		overflow: hidden;
+	}
+	.parallel_page .text_box {
+		padding: 44px 46px 42px;
+	}
+	.parallel_page .text_box {
+		width: 390px;
+	}
+	.slider_box .pic_list li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+	.slider_box .pic_list li img {
+		width: 300px;
+	}
+	.parallel_page .introduce6_box .detail img {
+		width: 80%;
+	}
+	/*机器人-串联型*/
+	.series_page .product_type .type_box {
+		text-align: center;
+	}
+	.series_page .product_type dl {
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.series_page .profit_box dl {
+		width: 48%;
+	}
+	.series_page .range_box .container img {
+		width: 80%;
+	}
+	/*坐标型-平面门架*/
+	.plane_page .plane_show ul {
+		margin-left: 0px;
+	}
+	.plane_page .plane_show li {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	.plane_page .plane_feature li {
+		width: 305px;
+	}
+	/*坐标型-移液机器人*/
+	.plane_page .pipette_feature li {
+		width: 23%;
+		margin-left: 1%;
+		vertical-align: top;
+	}
+	.plane_page .pipette_feature .center {
+		margin-left: 2%;
+	}
+	/*软件服务-镁伽开发套件*/
+	.suite_page .content_box2 ul {
+		width: 980px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.suite_page .content_box2 li {
+		margin-right: 10px;
+	}
+	/*软件服务-镁伽基础软件架构*/
+	.soft_page .ul_box .tit {
+		width: 140px;
+	}
+	.soft_page .ul_box .info {
+		width: 845px;
+	}
+	.soft_page .ul_box .info div {
+		width: 168px;
+	}
+	.soft_page .ul_box div.div2 {
+		width: 100%;
+	}
+	/*运动控制-直流驱控器*/
+	.direct_page .content_box2 ul {
+		text-align: center;
+		/* font-size: 0px; */
+	}
+	.direct_page .content_box2 li {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		width: 19%;
+		margin-right: 1%;
+	}
+	.direct_page .content_box2 .tit {
+		font-size: 15px;
+	}
+	.direct_page .content_box2 .text {
+		font-size: 14px;
+	}
+	/*运动控制-电机驱动器*/
+	.electric_page .electric_box2 span {
+		font-size: 20px;
+	}
+	.electric_page .electric_box2 img {
+		width: 85%;
+	}
+	.electric_page .electric_box3 .div_box {
+		width: 100%;
+	}
+	.electric_page .electric_box3 dl {
+		width: 23%;
+		margin: 0 1%;
+	}
+	.electric_page .electric_box3 img {
+		width: 100%;
+	}
+	.electric_page .electric_box5 .core1 img {
+		width: 90%;
+	}
+	.electric_page .core5 .txt_box {
+		margin-left: 35%;
+	}
+	.electric_page .core5 .img_box img {
+		width: 90%;
+	}
+	/*运动控制-运动控制工作站*/
+	.workstation_page {
+		padding-bottom: 80px;
+	}
+	.workstation_page .content_box2 p {
+		margin-right: 100px;
+	}
+	.workstation_page .content_box1 li {
+		width: 49%;
+	}
+	.workstation_page .content_box1 .detail {
+		font-size: 12px;
+	}
+	/*运动控制-智能网关*/
+	.gateway_page .content_box1 li {
+		width: 49%;
+	}
+	.gateway_page .content_box1 li:nth-child(odd) {
+		margin-right: 2%;
+	}
+	/*生命科学*/
+	.life_sciences .banner {
+		height: 400px;
+	}
+	.sencond_menu_box.four_dl dl {
+		width: 22%;
+		margin-right: 2%;
+	}
+	.sencond_menu_box dl:last-child, .sencond_menu_box.three_dl dl:last-child {
+		margin-right: 0px;
+	}
+	.sencond_menu_box dl img {
+		width: 90%;
+	}
+	.sencond_menu_box.three_dl dl {
+		width: 25%;
+		margin-right: 3%;
+	}
+	.life_sciences .content {
+		padding: 40px 0 0px;
+	}
+	.life_sciences .content li {
+		width: 24.25%;
+		margin-right: 1%;
+		height: 380px;
+	}
+	.life_sciences .info {
+		margin: 90px auto 0;
+	}
+	.life_sciences .info .text {
+		height: 90px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .science_a_list ul {
+		width: 100%;
+	}
+	.life_sciences_a .content_box1 {
+		padding: 30px 0px;
+	}
+	.life_sciences_a .content_box1 .text {
+		margin-bottom: 0px;
+	}
+	/*生命科学-移液加样*/
+	.life_sciences_b .banner {
+		height: 300px;
+	}
+	.life_sciences_b .content_box2 .width1 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width2 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width3 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width4 {
+		width: 25%;
+	}
+	/*生命科学-样本运输*/
+	.life_sciences_c .text_box {
+		width: 100%;
+	}
+	.life_sciences_c .content_box2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	/*生命科学-样本后处理*/
+	.life_sciences_d .text_box li span {
+		margin-right: 10px;
+	}
+	.life_sciences_d .text_box {
+		width: 100%;
+		padding-left: 10px;
+	}
+	.life_sciences_d .content_box2 .text_box1 {
+		width: 64%;
+	}
+	/*智能制造*/
+	.make_sciences .bg_color {
+		margin-bottom: 30px;
+	}
+	.make_sciences .banner {
+		height: 400px;
+	}
+	.make_sciences .content {
+		padding: 0;
+	}
+	/*智能制造-测试自动化*/
+	.make_sciences_b .content_box2 {
+		padding: 60px 24px 40px;
+	}
+	.make_sciences_b .content_box2 li {
+		width: 452px;
+		padding: 64px 40px 0;
+	}
+	/*智能制造-装配自动化*/
+	.make_sciences_a li.last_li {
+		width: 100%;
+	}
+	.make_sciences_c .list {
+		width: 95%;
+	}
+	.make_sciences_c .list li {
+		padding: 40px 15px 0 15px;
+	}
+	/*智能零售*/
+	.retail_sciences .bg_color {
+		margin-bottom: 30px;
+	}
+	.retail_sciences .img_box {
+		width: 500px;
+		height: 284px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .content_box2 {
+		padding: 86px 20px 87px;
+	}
+	/*软件服务*/
+	.sencond_menu_box.two_dl dl {
+		width: 45%;
+	}
+	.soft_page h2.h2_tit {
+		line-height: 150px;
+		margin-top: 50px;
+	}
+	.soft_page .feature_wrapper ul {
+		margin-left: 0px;
+	}
+	.soft_page .feature_wrapper li {
+		width: 80%;
+		margin: 0 auto 40px;
+	}
+	/*售后服务*/
+	.aftersale_page .content_box2 li {
+		width: 32.5%;
+		margin-right: 1%;
+	}
+	/*新闻报道*/
+	.news_list_page .list li {
+		padding-left: 10px;
+	}
+	.news_list_page .list .news_img {
+		margin-right: 15px;
+	}
+	.news_list_page .news_right {
+		padding-top: 15px;
+	}
+	/*合作伙伴*/
+	.partner_page .detail {
+		height: 784px;
+		margin-top: 0px;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.life_sciences .banner {
+		background: url(../images/science_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.life_sciences_b .banner {
+		background: url(../images/science_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.make_sciences .banner {
+		background: url(../images/create_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.make_sciences_a .life_sciences_b .banner {
+		background: url(../images/create_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.make_sciences_b .life_sciences_b .banner {
+		background: url(../images/create_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.retail_sciences .life_sciences .banner {
+		background: url(../images/retail_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.retail_sciences_a .life_sciences_b .banner {
+		background: url(../images/retail_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.product_page .banner {
+		background: url(../images/product_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.series_page .banner {
+		background: url(../images/series_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.parallel_page .banner {
+		background: url(../images/parallel_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.plane_page .banner {
+		background: url(../images/plane_banner1_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.pipetting_page .banner {
+		background: url(../images/plane_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.motion_page .banner {
+		background: url(../images/direct_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.electric_page .banner {
+		background: url(../images/electric_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.direct_page .banner {
+		background: url(../images/directcurrent_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.gateway_page .banner {
+		background: url(../images/gateway_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.workstation_page .banner {
+		background: url(../images/workstation_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.soft_service .banner {
+		background: url(../images/suite_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.lease_page .banner {
+		background: url(../images/lease_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.aftersale_page .banner {
+		background: url(../images/aftersale_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.download_page .banner {
+		background: url(../images/download_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.megarobo_info_page .content_box1 {
+		background: url(../images/about_img_01_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.news_list_page .banner {
+		background: url(../images/news_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.partner_page .banner {
+		background: url(../images/partner_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.joinus_page .banner {
+		background: url(../images/joinus_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.contactus_page .banner {
+		background: url(../images/contact_us_banner_ipad.jpg) center no-repeat;
+		background-size: cover;
+	}
+	.life_sciences_b .content_box2 .width1, .life_sciences_b .content_box2 .width2, .life_sciences_b .content_box2 .width3.life_sciences_b .content_box2 .width4 {
+		width: 25%;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	.banner {
+		height: 400px;
+	}
+	.megarobo_info_page .content_box1 {
+		height: 400px;
+	}
+	/*头部*/
+	.header_nav h1 img {
+		margin-left: 0px;
+	}
+	.navbar .nav>li:hover .dropdown-menu {
+		display: block;
+	}
+	.navbar-nav {
+		margin-right: 80px;
+	}
+	.index_page {
+		padding-bottom: 300px;
+	}
+	.carousel-control {
+		width: 15%;
+		height: 100%;
+	}
+	.banner_ipad .carousel-control.right {
+		margin-right: 20px;
+	}
+	.banner_ipad .carousel-control.left {
+		margin-left: 20px;
+	}
+	/*产品租赁*/
+	.lease_page .advantage ul {
+		text-align: center;
+		font-size: 0px;
+	}
+	.lease_page .advantage li {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		width: 24%;
+		margin-right: 1%;
+	}
+	.lease_page .lease_bottom .contact_us {
+		width: 440px;
+	}
+	.lease_page .reserved_lease {
+		width: 516px;
+	}
+	.lease_page .reserved_lease .info input {
+		width: 498px;
+	}
+	.lease_page .reserved_lease .info textarea {
+		width: 498px;
+	}
+	.lease_page .reserved_lease .tip_box {
+		width: 498px;
+	}
+	/*下载中心*/
+	.download_tab .tab_right {
+		text-align: center;
+		margin-top: -42px;
+	}
+	.download_tab .tab_right button {
+		margin: 20px;
+	}
+	/*新闻详情*/
+	.news_detail_page .life_breadcrumb {
+		max-width: 90%;
+	}
+	.news_detail_page .breadcrumb_ol {
+		padding-left: 20px;
+	}
+	.news_detail_page .detail .img img {
+		width: 80%;
+	}
+	/*镁伽简介*/
+	.megarobo_info_page .sidebar .hr {
+		margin-left: 6px;
+	}
+	.megarobo_info_page .synopsis {
+		top: 26px;
+	}
+	.megarobo_info_page .content_box1 ul {
+		width: 100%;
+		bottom: -160px;
+	}
+	.megarobo_info_page .content_box1 li {
+		width: 24%;
+		margin-right: 1.25%;
+	}
+	.megarobo_info_page .use_field dl {
+		width: 30%;
+	}
+	.megarobo_info_page .img_box img {
+		max-width: 24%;
+		margin-right: 1.25%;
+	}
+	.megarobo_info_page .time_axis {
+		width: 100%;
+		overflow-y: auto;
+	}
+	.fishBoneDiv {
+		padding-left: 112px;
+	}
+	/*合作伙伴*/
+	.partner_page .bg_box {
+		width: 570px;
+		height: 640px;
+	}
+	.partner_page .text_box {
+		width: 530px;
+	}
+	.partner_page .form_box {
+		height: auto;
+	}
+	.partner_page .join li {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.partner_page .join a {
+		margin-bottom: 34px;
+	}
+	.partner_page .join .btn_box {
+		margin-top: 0px;
+	}
+	/*联系我们*/
+	.contactus_page .contact_box dt {
+		font-size: 25px;
+	}
+	.contactus_page .contact_type .tab_content {
+		font-size: 16px;
+	}
+	.contactus_page .form_box h3 span {
+		width: 224px;
+	}
+	/*加入我们*/
+	.joinus_page .welfare_box {
+		padding: 0 20px;
+	}
+	.joinus_page .welfare .detail {
+		width: 380px;
+	}
+	.joinus_page .welfare_2, .joinus_page .welfare_4 {
+		margin-left: 24px;
+	}
+	.joinus_page .company_info .width2 {
+		width: 280px;
+	}
+	.company_info li.tit {
+		padding-left: 50px;
+	}
+	.joinus_page .company_info .title {
+		padding-left: 50px;
+	}
+	.joinus_page .company_info .width1 {
+		width: 300px;
+	}
+	/*产品中心*/
+	.product_page dl {
+		width: 220px;
+		height: 345px;
+		margin-right: 37px;
+		font-size: 24px;
+	}
+	.product_page dl img {
+		width: 190px;
+	}
+	/*机器人-并联型*/
+	.parallel_page .slider_box {
+		padding: 50px 0;
+	}
+	.picScroll-left .scroll_btn {
+		top: 27px;
+	}
+	.picScroll-left .bd ul li .pic img {
+		width: 259px;
+		height: 168px;
+	}
+	.picScroll-left .bd ul li {
+		margin-right: 38px;
+	}
+	.picScroll-left .bd {
+		margin-left: 68px;
+		width: 860px;
+		overflow: hidden;
+	}
+	.parallel_page .text_box {
+		width: 390px;
+		padding: 44px 46px 42px;
+	}
+	.slider_box .pic_list li {
+		display: inline-block;
+		margin: 0 10px;
+	}
+	.slider_box .pic_list li img {
+		width: 300px;
+	}
+	.parallel_page .introduce6_box .detail img {
+		width: 80%;
+	}
+	/*机器人-串联型*/
+	.series_page .product_type .type_box {
+		text-align: center;
+	}
+	.series_page .product_type dl {
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.series_page .profit_box dl {
+		width: 48%;
+	}
+	.series_page .range_box .container img {
+		width: 80%;
+	}
+	/*坐标型-平面门架*/
+	.plane_page .plane_show ul {
+		margin-left: 0px;
+	}
+	.plane_page .plane_show li {
+		margin: 0px 10px;
+		text-align: center;
+	}
+	.plane_page .plane_feature li {
+		width: 305px;
+	}
+	/*坐标型-移液机器人*/
+	.plane_page .pipette_feature li {
+		width: 23%;
+		margin-left: 1%;
+		vertical-align: top;
+	}
+	.plane_page .pipette_feature .center {
+		margin-left: 2%;
+	}
+	/*软件服务-镁伽开发套件*/
+	.suite_page .content_box2 ul {
+		width: 980px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.suite_page .content_box2 li {
+		margin-right: 10px;
+	}
+	/*软件服务-镁伽基础软件架构*/
+	.soft_page .ul_box .tit {
+		width: 140px;
+	}
+	.soft_page .ul_box .info {
+		width: 845px;
+	}
+	.soft_page .ul_box .info div {
+		width: 168px;
+	}
+	.soft_page .ul_box div.div2 {
+		width: 100%;
+	}
+	/*运动控制-直流驱控器*/
+	.direct_page .content_box2 ul {
+		text-align: center;
+		font-size: 0px;
+	}
+	.direct_page .content_box2 li {
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		width: 19%;
+		margin-right: 1%;
+	}
+	.direct_page .content_box2 .tit {
+		font-size: 15px;
+	}
+	.direct_page .content_box2 .text {
+		font-size: 14px;
+	}
+	/*运动控制-电机驱动器*/
+	.electric_page .electric_box2 span {
+		font-size: 20px;
+	}
+	.electric_page .electric_box2 img {
+		width: 85%;
+	}
+	.electric_page .electric_box3 .div_box {
+		width: 100%;
+	}
+	.electric_page .electric_box3 dl {
+		width: 23%;
+		margin: 0 1%;
+	}
+	.electric_page .electric_box3 img {
+		width: 100%;
+	}
+	.electric_page .electric_box5 .core1 img {
+		width: 90%;
+	}
+	.electric_page .core5 .txt_box {
+		margin-left: 35%;
+	}
+	.electric_page .core5 .img_box img {
+		width: 90%;
+	}
+	/*运动控制-运动控制工作站*/
+	.workstation_page {
+		padding-bottom: 80px;
+	}
+	.workstation_page .content_box2 p {
+		margin-right: 100px;
+	}
+	.workstation_page .content_box1 li {
+		width: 49%;
+	}
+	.workstation_page .content_box1 .detail {
+		font-size: 12px;
+	}
+	/*运动控制-智能网关*/
+	.gateway_page .content_box1 li {
+		width: 49%;
+	}
+	.gateway_page .content_box1 li:nth-child(odd) {
+		margin-right: 2%;
+	}
+	/*生命科学*/
+	.life_sciences .banner {
+		height: 400px;
+	}
+	.life_sciences_b .banner {
+		height: 400px;
+	}
+	.sencond_menu_box.four_dl dl {
+		width: 22%;
+		margin-right: 2%;
+	}
+	.sencond_menu_box dl:last-child, .sencond_menu_box.three_dl dl:last-child {
+		margin-right: 0px;
+	}
+	.sencond_menu_box dl img {
+		width: 90%;
+	}
+	.sencond_menu_box.three_dl dl {
+		width: 25%;
+		margin-right: 3%;
+	}
+	.life_sciences .content {
+		padding: 40px 0 0px;
+	}
+	.life_sciences .content li {
+		width: 24.25%;
+		margin-right: 1%;
+		height: 380px;
+	}
+	.life_sciences .info {
+		margin: 90px auto 0;
+	}
+	.life_sciences .info .text {
+		height: 90px;
+	}
+	.life_sciences_d .content_box2 {
+		padding-bottom: 50px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .science_a_list ul {
+		width: 100%;
+	}
+	.life_sciences_a .content_box1 {
+		padding: 30px 0px;
+	}
+	.life_sciences_a .content_box1 .text {
+		margin-bottom: 0px;
+	}
+	/*生命科学-移液加样*/
+	.life_sciences_b .banner {
+		height: 300px;
+	}
+	.life_sciences_b .content_box2 .width1 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width2 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width3 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width4 {
+		width: 25%;
+	}
+	/*生命科学-样本运输*/
+	.life_sciences_c .text_box {
+		width: 100%;
+	}
+	.life_sciences_c .content_box2 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	/*生命科学-样本后处理*/
+	.life_sciences_d .text_box li span {
+		margin-right: 10px;
+	}
+	.life_sciences_d .text_box {
+		width: 100%;
+		padding-left: 10px;
+	}
+	.life_sciences_d .content_box2 .text_box1 {
+		width: 64%;
+	}
+	/*智能制造*/
+	.make_sciences .banner {
+		height: 400px;
+	}
+	.make_sciences .content {
+		padding: 0;
+	}
+	/*智能制造-测试自动化*/
+	.make_sciences_b .content_box2 {
+		padding: 60px 24px 40px;
+	}
+	.make_sciences_b .content_box2 li {
+		width: 452px;
+		padding: 64px 40px 0;
+	}
+	/*智能制造-装配自动化*/
+	.make_sciences_a li.last_li {
+		width: 100%;
+	}
+	.make_sciences_c .list {
+		width: 95%;
+	}
+	.make_sciences_c .list li {
+		padding: 40px 15px 0 15px;
+	}
+	/*智能零售*/
+	.retail_sciences .img_box {
+		width: 500px;
+		height: 284px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .content_box2 {
+		padding: 86px 20px 87px;
+	}
+	.life_sciences_a dl {
+		width: 49%;
+		margin-bottom: 35px;
+	}
+	.life_sciences_a dl:nth-child(odd) {
+		margin-right: 2%;
+	}
+	/*软件服务*/
+	.sencond_menu_box.two_dl dl {
+		width: 45%;
+	}
+	.soft_page h2.h2_tit {
+		line-height: 150px;
+		margin-top: 50px;
+	}
+	.soft_page .feature_wrapper ul {
+		margin-left: 0px;
+	}
+	.soft_page .feature_wrapper li {
+		width: 80%;
+		margin: 0 auto 40px;
+	}
+	/*售后服务*/
+	.aftersale_page .content_box2 li {
+		width: 32.5%;
+		margin-right: 1%;
+	}
+	/*新闻报道*/
+	.news_list_page .list li {
+		padding-left: 10px;
+	}
+	.news_list_page .list .news_img {
+		margin-right: 15px;
+	}
+	.news_list_page .news_right {
+		padding-top: 15px;
+	}
+	/*合作伙伴*/
+	.partner_page .detail {
+		height: 784px;
+		margin-top: 0px;
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.banner {
+		height: 300px;
+	}
+	.megarobo_info_page .content_box1 {
+		height: 300px;
+	}
+	.container {
+		padding: 0 20px;
+	}
+	/*头部*/
+	.navbar-nav>li>a {
+		font-size: 16px;
+	}
+	.header_nav h1 img {
+		margin-left: 0px;
+	}
+	.header_nav h1 {
+		width: 160px;
+		line-height: 62px;
+	}
+	.header_nav .first_menu>li {
+		margin-right: 30px;
+	}
+	.navbar-nav {
+		margin-right: 50px;
+	}
+	.navbar .nav>li:hover .dropdown-menu {
+		display: block;
+	}
+	.index_page {
+		padding-bottom: 300px;
+	}
+	.carousel-control {
+		width: 15%;
+		height: 100%;
+	}
+	.banner_ipad .carousel-control.right {
+		margin-right: 20px;
+	}
+	.banner_ipad .carousel-control.left {
+		margin-left: 20px;
+	}
+	/*产品租赁*/
+	.lease_page .introduce h2 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+	.lease_page .range h2 {
+		font-size: 20px;
+	}
+	.lease_page .introduce p {
+		font-size: 14px;
+		padding: 0 15px;
+		margin-top: 50px;
+	}
+	.lease_page .advantage li {
+		width: 45%;
+		margin: 0 2.5%;
+		margin-bottom: 20px;
+	}
+	.lease_page .range li {
+		font-size: 18px;
+	}
+	.lease_page .lease_bottom h2 {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	.lease_page .lease_bottom .content {
+		margin-top: 30px;
+		height: auto;
+		padding-bottom: 15px;
+	}
+	.lease_page .lease_bottom .contact_us {
+		width: 70%;
+		float: none;
+		margin: 0 auto;
+	}
+	.lease_page .lease_bottom .content .icon img {
+		width: 40px;
+	}
+	.lease_page .lease_bottom .content .icon {
+		padding-top: 22px;
+	}
+	.lease_page .lease_bottom .telephone {
+		margin-top: 20px;
+	}
+	.lease_page .reserved_lease {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.lease_page .reserved_lease .info {
+		padding-bottom: 40px;
+	}
+	.lease_page .reserved_lease .info input {
+		width: 95%;
+	}
+	.lease_page .reserved_lease .info textarea {
+		width: 95%;
+		height: 56px;
+	}
+	.lease_page .reserved_lease .submit_btn {
+		margin-top: 25px;
+	}
+	.lease_page .advantage {
+		padding-bottom: 95px;
+	}
+	.lease_page .reserved_lease .tip_box {
+		width: 98%;
+		margin-top: 20px;
+	}
+	.lease_page .lease_bottom .telephone span {
+		font-size: 20px;
+	}
+	.lease_page .lease_bottom .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 16px;
+	}
+	.lease_page .lease_bottom .tab span {
+		font-size: 14px;
+	}
+	.lease_page .lease_bottom .tab {
+		margin-top: 15px;
+	}
+	.lease_page .lease_bottom {
+		height: auto;
+		background-size: cover;
+	}
+	.lease_page .lease_bottom .tab_content {
+		font-size: 16px;
+	}
+	/*售后服务*/
+	.aftersale_page .content ul {
+		padding: 0 10px;
+		margin-top: 80px;
+	}
+	.aftersale_page .content h3 {
+		font-size: 26px;
+	}
+	.aftersale_page .content p {
+		font-size: 16px;
+	}
+	.aftersale_page .content_box2 li {
+		width: 32%;
+		margin-right: 2%;
+	}
+	.aftersale_page .contact_us .icon img {
+		width: 40px;
+	}
+	.aftersale_page .contact_us .telephone span {
+		font-size: 20px;
+	}
+	.aftersale_page .contact_us .tab_content {
+		font-size: 16px;
+	}
+	.aftersale_page .contact_us .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 16px;
+	}
+	.aftersale_page .contact_us .tab span {
+		font-size: 14px;
+	}
+	/*下载中心*/
+	.download_content .tab_content ul {
+		width: 700px;
+	}
+	.download_content .right_box {
+		text-align: center;
+	}
+	.download_content .right_box a {
+		margin-left: 0px;
+	}
+	.download_content .tab_content {
+		padding-bottom: 100px;
+	}
+	/*关于镁伽*/
+	.megarobo_info_page .synopsis {
+		top: 30px;
+	}
+	/*新闻报道*/
+	.news_list_page .list {
+		margin: 0 10px;
+		padding-top: 32px;
+	}
+	.news_list_page .news_box .title {
+		font-size: 20px;
+		margin-top: 42px;
+	}
+	.news_list_page .list li {
+		padding: 0 0px 12px 0px;
+	}
+	.news_list_page .list .news_img {
+		width: 90px;
+		height: 90px;
+		line-height: 90px;
+		margin-right: 15px;
+	}
+	.news_list_page .list .news_img img {
+		width: 90px;
+	}
+	.news_list_page .list .tit {
+		font-size: 20px;
+		height: 20px;
+		line-height: 20px;
+		padding-top: 0px;
+	}
+	.news_list_page .list p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.news_list_page .news_right .date {
+		line-height: 40px;
+	}
+	/*新闻详情*/
+	.news_detail_page .life_breadcrumb {
+		max-width: 90%;
+	}
+	.news_detail_page .detail h3 {
+		font-size: 16px;
+	}
+	.news_detail_page .detail .date {
+		font-size: 12px;
+	}
+	.news_detail_page .info {
+		font-size: 12px;
+	}
+	.news_detail_page .breadcrumb_ol {
+		padding-left: 20px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	.news_detail_page .detail {
+		padding: 0 40px;
+		padding-bottom: 100px;
+	}
+	.news_detail_page .detail .img img {
+		width: 80%;
+	}
+	/*镁伽简介*/
+	.megarobo_info_page .sidebar .hr {
+		margin-left: 4px;
+	}
+	.megarobo_info_page .content_box1 h2 {
+		font-size: 16px;
+	}
+	.megarobo_info_page .content_box1 p {
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.megarobo_info_page .content_box1 ul {
+		width: 100%;
+		bottom: -150px;
+	}
+	.megarobo_info_page .content_box1 li {
+		width: 20%;
+		margin-right: 1.25%;
+		height: 170px;
+	}
+	.megarobo_info_page .content_box1 .li_title {
+		font-size: 20px
+	}
+	.megarobo_info_page .content_box1 .li_text {
+		font-size: 14px;
+	}
+	.megarobo_info_page .use_field dl {
+		width: 25%;
+	}
+	.megarobo_info_page .content_box2 h4 {
+		font-size: 20px;
+		line-height: 130px;
+	}
+	.megarobo_info_page .use_field dt {
+		font-size: 16px;
+	}
+	.megarobo_info_page .content_box2 {
+		margin-bottom: 50px;
+	}
+	.megarobo_info_page .content_box3 {
+		height: 300px;
+	}
+	.megarobo_info_page .content_box3 .container {
+		padding: 0 10px;
+	}
+	.megarobo_info_page .tit_h3 {
+		font-size: 26px;
+	}
+	.megarobo_info_page .content_box3 h3 {
+		margin-top: 57px;
+		margin-bottom: 36px;
+	}
+	.megarobo_info_page .content_box4 h3 {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	.megarobo_info_page .content_box5 h3 {
+		margin-top: 47px;
+		margin-bottom: 66px;
+	}
+	.megarobo_info_page .img_box {
+		text-align: center;
+	}
+	.megarobo_info_page .img_box img {
+		width: 22%;
+		margin-right: 2%;
+	}
+	.megarobo_info_page .time_axis {
+		overflow-x: auto;
+		padding-left: 120px;
+	}
+	/*合作伙伴*/
+	.partner_page .banner .text1 {
+		font-size: 30px;
+	}
+	.partner_page .banner .text span {
+		font-size: 20px;
+	}
+	.partner_page h2 {
+		font-size: 20px;
+		margin: 20px 0 16px;
+	}
+	.partner_page .bg_box {
+		width: 100%;
+		height: 430px;
+	}
+	.partner_page .text_box {
+		float: none;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+	.partner_page .text_box dt {
+		font-size: 16px;
+		background-size: 12px 20px;
+		padding-left: 24px;
+		height: 44px;
+		line-height: 44px;
+	}
+	.partner_page .text_box dd {
+		font-size: 14px;
+		padding-left: 24px;
+		line-height: 26px;
+	}
+	.partner_page .detail {
+		height: auto;
+		background-size: cover;
+		margin-top: 0px;
+	}
+	.partner_page .form_box {
+		float: none;
+		margin: 0 auto;
+		padding-top: 1px;
+		margin-top: 40px;
+	}
+	.partner_page .join h3 {
+		font-size: 20px;
+	}
+	.partner_page .form_box .join {
+		text-align: center;
+	}
+	/*联系我们*/
+	.contactus_page .banner .text1 {
+		font-size: 30px;
+	}
+	.contactus_page .banner .text span {
+		font-size: 20px;
+	}
+	.contactus_page .address {
+		font-size: 22px;
+	}
+	.contactus_page .address span {
+		margin: 0 34px;
+	}
+	.contactus_page .contact_box dt {
+		font-size: 14px;
+	}
+	.contactus_page .contact_box dd {
+		font-size: 12px;
+	}
+	.contactus_page .contact_box dl {
+		margin-top: 76px;
+	}
+	.contactus_page .contact_box {
+		height: 260px;
+		background-size: 100% 100%;
+		margin-top: 43px;
+	}
+	.contactus_page .contact_type {
+		padding-top: 80px;
+	}
+	.contactus_page .contact_type .telephone span {
+		font-size: 16px;
+	}
+	.contactus_page .contact_type .tab_content {
+		font-size: 16px;
+	}
+	.contactus_page .contact_type .tab span {
+		font-size: 14px;
+	}
+	.contactus_page .contact_type .tab span.cur, .lease_page .lease_bottom .tab span:hover {
+		font-size: 16px;
+	}
+	.contactus_page .contact_type .text {
+		font-size: 14px;
+	}
+	.contactus_page .contact_type .icon img {
+		width: 58px;
+	}
+	.contactus_page .form_box h3 {
+		font-size: 14px;
+		margin-top: 0px;
+	}
+	.contactus_page .form_box h3 span {
+		width: 180px;
+	}
+	/*加入我们*/
+	.joinus_page h2 {
+		font-size: 20px;
+	}
+	.joinus_page .welfare_box h2 {
+		font-size: 20px;
+		margin: 35px 0;
+	}
+	.joinus_page .welfare {
+		padding-left: 14px;
+		margin-bottom: 42px;
+	}
+	.joinus_page .joinus_box h2 {
+		line-height: 100px;
+	}
+	.joinus_page .joinus_box .text {
+		font-size: 12px
+	}
+	.joinus_page .welfare .tit {
+		font-size: 16px;
+	}
+	.joinus_page .welfare .detail {
+		width: 300px;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.joinus_page .welfare .icon {
+		width: 46px;
+		height: 52px;
+		line-height: 52px;
+	}
+	.joinus_page .welfare_1 img {
+		width: 34px;
+	}
+	.joinus_page .welfare_2 img {
+		width: 33px;
+	}
+	.joinus_page .welfare_3 img {
+		width: 28px;
+	}
+	.joinus_page .welfare_4 img {
+		width: 32px;
+	}
+	.joinus_page .welfare_2, .joinus_page .welfare_4 {
+		margin-left: 0px;
+	}
+	.joinus_page .company_info .width1 {
+		width: 260px;
+	}
+	.joinus_page .company_info .width2 {
+		width: 245px;
+	}
+	.joinus_page .company_info ul {
+		margin: 42px 0 65px;
+	}
+	.company_info li.tit {
+		padding-left: 30px;
+	}
+	.joinus_page .company_info .title {
+		padding-left: 30px;
+	}
+	.joinus_page .company_info .info {
+		padding-left: 52px;
+	}
+	/*产品中心*/
+	.product_page h2 {
+		font-size: 20px;
+		line-height: 120px;
+	}
+	.sencond_menu_box {
+		margin-top: 50px;
+	}
+	/*机器人-并联型*/
+	.parallel_page .breadcrumb_ol {
+		margin-top: 40px;
+		padding-left: 10px;
+		font-size: 20px;
+	}
+	.parallel_page .breadcrumb_ol .first {
+		font-size: 24px;
+	}
+	.parallel_page .breadcrumb_ol>li+li:before {
+		font-size: 24px;
+	}
+	.parallel_page .introduce1_box .row {
+		padding-left: 20px;
+	}
+	.parallel_page .slider_box {
+		padding: 40px 0px;
+	}
+	.picScroll-left .prev {
+		left: 10px;
+	}
+	.picScroll-left .next {
+		right: 10px;
+	}
+	.parallel_page .left_box .tit {
+		font-size: 20px;
+	}
+	.parallel_page .left_box .detail {
+		font-size: 14px;
+		line-height: 26px;
+	}
+	.parallel_page .right_box {
+		width: 50%;
+	}
+	.parallel_page .right_box .telephone span {
+		font-size: 20px;
+		margin-right: 10px;
+	}
+	.parallel_page .right_box .tab_content {
+		font-size: 16px;
+	}
+	.parallel_page .right_box .tab span {
+		font-size: 14px;
+	}
+	.parallel_page .right_box .tab span.cur, .parallel_page .right_box .tab span:hover {
+		font-size: 16px;
+	}
+	.picScroll-left .bd {
+		width: 614px;
+		margin-left: 62px;
+	}
+	.picScroll-left .bd ul li {
+		margin-right: 20px;
+	}
+	.picScroll-left .bd ul li .pic img {
+		width: 190px;
+		height: auto;
+	}
+	.picScroll-left .scroll_btn {
+		width: 33px;
+		height: 104px;
+		top: 16px;
+	}
+	.parallel_page .introduce2_box h2 {
+		font-size: 20px;
+		margin: 83px 0 29px 0;
+	}
+	.parallel_page .text_box .tit {
+		height: 50px;
+		line-height: 50px;
+	}
+	.parallel_page .text_box {
+		width: 48%;
+		box-sizing: border-box;
+		margin-right: 2%;
+		margin-bottom: 10px;
+		padding: 20px 30px;
+	}
+	.parallel_page .introduce3_box .col-sm-6 img {
+		width: 100%
+	}
+	.parallel_page .introduce3_box {
+		margin-top: 44px;
+	}
+	.parallel_page .text_box2 .tit {
+		font-size: 20px;
+		margin-top: 0px;
+		line-height: 70px;
+	}
+	.slider_box .pic_list li {
+		display: inline-block;
+		width: 30%;
+		margin: 0 1%;
+	}
+	.slider_box .pic_list li img {
+		width: 100%;
+		height: auto;
+	}
+	.parallel_page .introduce4_box .tit {
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.parallel_page .introduce5_box .tit {
+		font-size: 20px;
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.parallel_page .introduce6_box .tit {
+		font-size: 20px;
+		line-height: 100px;
+	}
+	.parallel_page .standard_box .tit {
+		font-size: 20px;
+		line-height: 100px;
+	}
+	.parallel_page .introduce4_box {
+		padding: 35px 0px;
+	}
+	.parallel_page .introduce5_box {
+		padding-top: 56px;
+	}
+	.parallel_page .introduce6_box .detail img {
+		width: 80%;
+	}
+	/*机器人-串联型*/
+	.series_page .product_type h2 {
+		font-size: 20px;
+		margin-top: 42px;
+		margin-bottom: 20px;
+	}
+	.series_page .product_type dl {
+		width: 18%;
+		margin: 0px 2.2% 0 0;
+		background-size: contain;
+	}
+	.series_page .profit_box {
+		margin-top: 0px;
+	}
+	.series_page .profit_box h2 {
+		line-height: 100px;
+		font-size: 20px;
+	}
+	.series_page .profit_box dl {
+		width: 48%;
+		height: 90px;
+		padding: 30px 0;
+		margin-bottom: 28px;
+	}
+	.series_page .profit_box dt {
+		width: 100px;
+		line-height: 90px;
+		font-size: 18px;
+	}
+	.series_page .profit_box dd {
+		font-size: 14px;
+		margin-left: 20px;
+		margin-top: 10px;
+		line-height: 30px;
+	}
+	.series_page .profit_box span {
+		font-size: 18px;
+	}
+	.series_page .range_box h2 {
+		font-size: 20px;
+		margin-top: 35px;
+		margin-bottom: 30px;
+	}
+	.series_page .standard_box h2 {
+		font-size: 20px;
+		margin: 50px 0 34px;
+	}
+	.series_page .range_box .container img {
+		width: 80%;
+	}
+	.series_page .standard_box table {
+		width: 94%;
+	}
+	/*坐标型-平面门架*/
+	.plane_page .plane_show ul {
+		margin-left: 0px;
+		padding: 67px 5px 64px;
+	}
+	.plane_page .plane_show li {
+		text-align: center;
+		margin-right: 0px;
+	}
+	.plane_page .plane_show ul img {
+		width: 90%;
+	}
+	.plane_page .plane_feature h2 {
+		font-size: 20px;
+		height: 100px;
+		line-height: 100px;
+	}
+	.plane_page .plane_spec h2 {
+		font-size: 20px;
+	}
+	.plane_page .plane_feature ul {
+		text-align: center;
+		font-size: 0px;
+	}
+	.plane_page .plane_feature li {
+		float: none;
+		display: inline-block;
+		width: 30%;
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.plane_page .plane_feature h4 {
+		font-size: 16px;
+		margin-top: 44px;
+	}
+	.plane_page .plane_feature img {
+		margin-top: 20px;
+		width: 25px;
+	}
+	.plane_page .plane_feature .center {
+		margin: 0 3.5%;
+	}
+	.plane_page .plane_spec {
+		margin-top: 63px;
+	}
+	.plane_page .plane_spec table {
+		width: 95%;
+		margin-top: 50px;
+	}
+	.plane_page .plane_spec .table_title td {
+		width: 40%;
+	}
+	/*坐标型-移液机器人*/
+	.pipette_feature {
+		margin-top: 40px;
+	}
+	.plane_page .pipette_feature {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.plane_page .pipette_feature li {
+		width: 24%;
+		margin-left: 1%;
+		min-height: 310px;
+		vertical-align: top;
+	}
+	.plane_page .pipette_feature .center {
+		margin: 0px;
+		margin-left: 1%;
+	}
+	.plane_page .pipette_feature p {
+		font-size: 16px;
+	}
+	/*软件服务-镁伽开发套件*/
+	.suite_page .content_box1 {
+		margin-top: 0px;
+		padding-bottom: 0px;
+	}
+	.suite_page .content_box1 h2 {
+		font-size: 20px;
+		margin: 40px 0 25px;
+	}
+	.suite_page .content_box1 p {
+		font-size: 16px;
+	}
+	.suite_page .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.suite_page .content_box2 h2 {
+		font-size: 20px;
+		margin: 60px 0 25px;
+	}
+	.suite_page .content_box2 ul {
+		width: 690px;
+		margin: 0 auto;
+	}
+	.suite_page .content_box2 li {
+		padding: 54px 28px;
+		margin-right: 21px;
+	}
+	.suite_page .content_box2 li div {
+		width: 100px;
+		font-size: 16px;
+	}
+	.suite_page .content_box3 {
+		padding-top: 30px;
+	}
+	.suite_page .h4 {
+		font-size: 16px;
+	}
+	.suite_page .content_box3 .h4 {
+		height: 55px;
+		line-height: 55px;
+	}
+	/*软件服务-镁伽基础软件架构*/
+	.soft_page .content_box1 {
+		padding-bottom: 0px;
+	}
+	.soft_page h2 {
+		font-size: 20px;
+		line-height: 50px;
+	}
+	.soft_page .h2_box1 {
+		margin: 26px 0 12px;
+	}
+	.soft_page .p_box1 {
+		font-size: 16px;
+	}
+	.soft_page .ul_box {
+		margin: 32px 0 41px;
+	}
+	.soft_page .ul_box .tit {
+		width: 100px;
+		font-size: 16px;
+	}
+	.soft_page .ul_box .info {
+		width: 620px;
+	}
+	.soft_page .ul_box .info div {
+		width: 123px;
+		font-size: 14px;
+	}
+	.soft_page .ul_box div.div2 {
+		width: 100%;
+	}
+	.soft_page .feature_table {
+		width: 100%;
+		font-size: 14px;
+	}
+	.soft_page .feature_table td {
+		height: 36px;
+		line-height: 36px;
+	}
+	.soft_page .feature_table .second td {
+		height: 44px;
+		line-height: 44px;
+	}
+	.soft_page .feature_text {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 23px 0 42px;
+	}
+	.soft_page h2.h2_tit {
+		line-height: 100px;
+	}
+	.soft_page .feature_wrapper ul {
+		margin-left: 0px;
+	}
+	.soft_page .feature_wrapper li {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	/*运动控制*/
+	.motion_page h2 {
+		font-size: 20px;
+		line-height: 120px;
+	}
+	/*运动控制-直流驱控器*/
+	.direct_page .container {
+		padding: 0 10px;
+	}
+	.direct_page .parallel_page .container {
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 40px;
+	}
+	.direct_page .content_box1 h3 {
+		font-size: 20px;
+		margin: 48px 0 36px;
+	}
+	.direct_page .content_box1 p {
+		font-size: 14px;
+	}
+	.direct_page .content_box1 {
+		padding-bottom: 60px;
+	}
+	.direct_page .content_box2 h3 {
+		font-size: 20px;
+		line-height: 92px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.direct_page .content_box2 .tit {
+		height: 60px;
+		line-height: 60px;
+	}
+	.direct_page .content_box2 li {
+		margin-bottom: 14px;
+	}
+	.direct_page .content_box3 h3 {
+		font-size: 20px;
+		line-height: 80px;
+		margin-bottom: 0px;
+	}
+	.direct_page .content_box3 table {
+		font-size: 14px;
+		width: 100%;
+	}
+	.direct_page .content_box3 td:first-child {
+		width: 300px;
+	}
+	.direct_page .content_box3 td {
+		line-height: 40px;
+	}
+	.direct_page .content_box3 .table_title {
+		height: 45px;
+		line-height: 45px;
+	}
+	.direct_page .img_box img {
+		width: 35%;
+	}
+	.direct_page .content_box2 ul {
+		margin-bottom: 20px;
+	}
+	/*运动控制-电机驱动器*/
+	.electric_page .electric_box2 {
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+	.electric_page .electric_box2 h3 {
+		font-size: 20px;
+		line-height: 80px;
+		margin-top: 0px;
+	}
+	.electric_page .electric_box2 span {
+		font-size: 15px;
+	}
+	.electric_page .electric_box2 p {
+		margin-bottom: 20px;
+	}
+	.electric_page .electric_box2 img {
+		width: 80%;
+	}
+	.electric_page .electric_box3 h3 {
+		font-size: 20px;
+		line-height: 80px;
+	}
+	.electric_page .electric_box3 .div_box {
+		width: 100%;
+		padding-bottom: 38px;
+	}
+	.electric_page .electric_box3 dl {
+		width: 23%;
+		margin: 0 1%;
+	}
+	.electric_page .electric_box3 img {
+		width: 100%;
+	}
+	.electric_page .electric_box3 dd {
+		font-size: 16px;
+		height: 38px;
+		line-height: 38px;
+	}
+	.electric_page .electric_box4 table {
+		width: 96%;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.electric_page .electric_box4 td:first-child {
+		width: 170px;
+	}
+	.electric_page .electric_box5 .container {
+		padding: 0 10px;
+	}
+	.electric_page .electric_box5 h3 {
+		margin-top: 45px;
+		font-size: 20px;
+	}
+	.electric_page .electric_box5 p {
+		font-size: 14px;
+	}
+	.electric_page .electric_box5 .core1 {
+		margin-top: 38px;
+	}
+	.electric_page .electric_box5 .core1 img {
+		width: 95%;
+		margin-top: 23px;
+	}
+	.electric_page .electric_box5 .core2 {
+		margin-top: 50px;
+	}
+	.electric_page .electric_box5 .core2 img {
+		margin-top: 34px;
+		width: 85%;
+	}
+	.electric_page .electric_box5 .core3 {
+		margin-top: 57px;
+	}
+	.electric_page .core3 .img_1 {
+		width: 90%;
+	}
+	.electric_page .core3 .img_box img {
+		width: 40%;
+	}
+	.electric_page .core4 {
+		margin-top: 52px;
+	}
+	.electric_page .core4 img {
+		margin-top: 23px;
+		width: 100%;
+	}
+	.electric_page .core5 {
+		margin-top: 75px;
+	}
+	.electric_page .core5 .txt_box {
+		margin-left: 27%;
+	}
+	.electric_page .core5 .img_box {
+		width: 75%;
+		padding-left: 0px;
+		margin: 25px auto 40px;
+	}
+	.electric_page .core5 .img_box img {
+		width: 95%;
+	}
+	/*运动控制-运动控制工作站*/
+	.workstation_page .content_box1 {
+		padding-bottom: 40px;
+	}
+	.workstation_page .content_box1 h3 {
+		font-size: 26px;
+		line-height: 80px;
+	}
+	.workstation_page .content_box1 p {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	.workstation_page .content_box1 td {
+		font-size: 20px;
+		height: 55px;
+		line-height: 55px;
+	}
+	.workstation_page .content_box2 p {
+		font-size: 20px;
+		line-height: 34px;
+		margin: 34px 100px 0 70px;
+	}
+	.workstation_page .content_box2 img {
+		width: 40%;
+	}
+	.workstation_page .content_box3 p {
+		margin: 0px;
+		font-size: 20px;
+		line-height: 95px;
+	}
+	.workstation_page .content_box3 .detail>div {
+		width: 210px;
+		height: 210px;
+	}
+	.workstation_page .content_box3 .type2 {
+		margin: 0 30px;
+	}
+	.workstation_page .content_box3 .type1 span {
+		margin-top: 54px;
+	}
+	.workstation_page .content_box3 .type2 span {
+		margin-top: 68px;
+	}
+	.workstation_page .content_box3 div.type3 {
+		line-height: 186px;
+	}
+	.workstation_page .content_box4 h3 {
+		font-size: 26px;
+		line-height: 80px;
+	}
+	.workstation_page .content_box4 p {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	.workstation_page .content_box1 li {
+		width: 49%;
+	}
+	.workstation_page .content_box1 .detail {
+		font-size: 12px;
+	}
+	/*运动控制-智能网关*/
+	.gateway_page .lease_page {
+		padding-top: 0px;
+	}
+	.lease_page .advantage h2 {
+		font-size: 20px;
+		margin-top: 42px;
+	}
+	.lease_page .advantage .box2 {
+		margin-top: 40px;
+	}
+	.gateway_page .lease_page .advantage li {
+		height: 180px;
+	}
+	.gateway_page .lease_page .advantage h3 {
+		margin-top: 58px;
+	}
+	.gateway_page .lease_page .advantage p {
+		margin-top: 0px;
+	}
+	.gateway_page .content_box1 {
+		padding: 0px 0 50px;
+	}
+	.gateway_page .content_box1 .container {
+		padding: 0 10px;
+	}
+	.gateway_page .content_box1 h3 {
+		font-size: 26px;
+		line-height: 100px;
+	}
+	.gateway_page .content_box1 li {
+		width: 49%;
+		font-size: 16px;
+	}
+	.gateway_page .content_box1 li:nth-child(odd) {
+		margin-right: 2%;
+	}
+	.gateway_page .content_box2 h3 {
+		font-size: 20px;
+		line-height: 80px;
+	}
+	.gateway_page .content_box2 .second {
+		margin: 0 10px;
+	}
+	.gateway_page .content_box2 dl {
+		width: 30%;
+	}
+	.gateway_page .content_box2 img {
+		width: 90%;
+	}
+	.gateway_page .content_box2 dd {
+		height: 60px;
+		font-size: 16px;
+		padding-top: 6px;
+		margin-top: 12px;
+	}
+	.gateway_page .content_box3 {
+		padding: 50px 10px 100px;
+	}
+	.gateway_page .content_box3 table {
+		width: 100%;
+	}
+	.gateway_page .content_box3 td {
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.gateway_page .content_box3 td.line {
+		line-height: 20px;
+		padding: 8px 0;
+	}
+	/*生命科学*/
+	.life_sciences .bg_color {
+		margin-bottom: 20px;
+	}
+	.sencond_menu_box.four_dl dl {
+		width: 23%;
+		margin-right: 2%;
+	}
+	.sencond_menu_box dl img {
+		width: 86%;
+	}
+	.sencond_menu_box dd {
+		height: 60px;
+		line-height: 60px;
+		font-size: 16px;
+	}
+	.sencond_menu_box.three_dl dl {
+		width: 25%;
+		margin-right: 3%;
+	}
+	.sencond_menu_box.four_dl dl:last-child, .sencond_menu_box.three_dl dl:last-child {
+		margin-right: 0px;
+	}
+	.life_sciences .text_box {
+		padding: 30px 0;
+	}
+	.life_sciences .banner {
+		height: 300px;
+	}
+	.life_sciences_b .banner {
+		height: 300px;
+	}
+	.life_sciences .container {
+		padding: 0 20px;
+	}
+	.life_sciences .content {
+		padding: 0px 0px 50px;
+	}
+	.life_sciences h3 {
+		font-size: 20px;
+		line-height: 20px;
+		margin: 40px 0;
+	}
+	.life_sciences .content p {
+		font-size: 14px;
+	}
+	.life_sciences .content li {
+		width: 24.25%;
+		margin-right: 1%;
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.life_sciences .info {
+		margin-top: 40px;
+	}
+	.life_sciences .info .text {
+		height: 100px;
+	}
+	.life_breadcrumb {
+		font-size: 20px;
+	}
+	.life_breadcrumb .first {
+		font-size: 24px;
+	}
+	.life_sciences_a h3 {
+		font-size: 20px;
+	}
+	.life_sciences_d .content_box2 {
+		padding-bottom: 30px;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .science_a_list ul {
+		width: 100%;
+	}
+	.life_sciences_a li .img_box {
+		width: 300px;
+		padding-top: 20px;
+	}
+	.life_sciences_a li .img_box img {
+		width: 100%;
+	}
+	.life_sciences_a .science_a_list .text_box .text {
+		margin-left: 28px;
+	}
+	.life_sciences_a .science_a_list li {
+		height: 200px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	.life_sciences_a .science_a_list .text_box .tit {
+		margin-bottom: 10px;
+	}
+	.life_sciences_a .content_box1 {
+		padding: 30px 0px;
+	}
+	.life_sciences_a .content_box1 .text {
+		margin-bottom: 0px;
+	}
+	.life_sciences_a .science_a_list ul {
+		margin-top: 30px;
+	}
+	/*生命科学-移液加样*/
+	.life_sciences_b h3 {
+		font-size: 26px;
+		line-height: 88px;
+	}
+	.life_sciences_b .content_box1 p {
+		margin-bottom: 20px;
+	}
+	.life_sciences_b .content_box2 .width1 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width2 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width3 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .width4 {
+		width: 25%;
+	}
+	.life_sciences_b .content_box2 .tit1 {
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.life_sciences_b .content_box3 .info {
+		width: 95%;
+	}
+	/*生命科学-样本运输*/
+	.life_sciences_c .content_box1 {
+		padding-bottom: 40px;
+	}
+	.life_sciences_c .content_box2 {
+		margin-top: 0px;
+		padding: 40px 0 10px;
+	}
+	.life_sciences_c .content_box2 img {
+		width: 80%;
+		margin-bottom: 60px;
+	}
+	.life_sciences_c .text_box {
+		width: 95%;
+		padding-left: 15px;
+	}
+	.life_sciences_c .text_box li span {
+		margin-right: 5px;
+	}
+	/*生命科学-样本后处理*/
+	.life_sciences_c .content_box2_1 {
+		padding: 45px 0;
+	}
+	.life_sciences_b .content_box1 {
+		padding: 20px 0;
+	}
+	.life_sciences_b .content_box1 hr {
+		margin: 10px 0;
+	}
+	.life_sciences_d .text_box {
+		width: 97%;
+		padding-top: 20px;
+	}
+	.life_sciences_d .text_box {
+		padding-left: 0px;
+	}
+	.life_sciences_d .content_box2 .img_box {
+		float: none;
+		width: 95%;
+		height: auto;
+		padding: 10px 0;
+		margin: 0 auto;
+		text-align: center;
+		background: #252525;
+	}
+	.life_sciences_d .text_box li span {
+		margin-right: 10px;
+	}
+	.life_sciences_d .content_box2 .text_box1 {
+		padding-left: 20px;
+	}
+	.life_sciences_d .text_box .tit {
+		margin-top: 0px;
+		line-height: 45px;
+	}
+	.life_sciences_d .content_box2 .text_box2 {
+		float: none;
+		margin-top: 0px;
+		padding-left: 20px;
+	}
+	/*智能制造*/
+	.make_sciences .sencond_menu_box {
+		margin-bottom: 50px;
+	}
+	.make_sciences .bg_color {
+		margin-bottom: 20px;
+	}
+	.make_sciences .banner {
+		height: 300px;
+	}
+	.make_sciences .content {
+		padding: 0;
+	}
+	.make_sciences .content li {
+		margin-right: 3%;
+	}
+	.make_sciences .content_box1 {
+		padding: 30px 20px;
+	}
+	.make_sciences .content p {
+		margin-bottom: 20px;
+	}
+	.make_sciences .content_box1 p {
+		margin-bottom: 38px;
+	}
+	/*智能制造-测试自动化*/
+	.make_sciences_b .content_box2 {
+		padding: 60px 20px 40px;
+	}
+	.make_sciences_b .content_box2 li {
+		width: 49%;
+		margin-bottom: 20px;
+		padding: 40px 40px 0;
+	}
+	.make_sciences_b .content_box2 li:nth-child(odd) {
+		margin-right: 2%;
+	}
+	/*智能制造-装配自动化*/
+	.make_sciences_a li.last_li {
+		width: 100%;
+	}
+	.life_sciences_b .content_box1 .img_box img {
+		width: 60%;
+	}
+	.life_sciences_b h3 {
+		font-size: 20px;
+		margin-top: 0px;
+	}
+	.make_sciences_c .list {
+		width: 100%;
+	}
+	.make_sciences_c .list li {
+		padding: 30px 15px 0 15px;
+	}
+	/*智能零售*/
+	.retail_sciences .sencond_menu_box {
+		margin-bottom: 50px;
+	}
+	.retail_sciences .bg_color {
+		margin-bottom: 20px;
+	}
+	.retail_sciences .content_box1 {
+		padding: 30px 10px 60px;
+		margin-bottom: 40px;
+	}
+	.retail_sciences .img_box {
+		width: 350px;
+		height: 210px;
+	}
+	.retail_sciences .text_box {
+		padding: 20px 10px
+	}
+	/*智能零售-调酒机器人*/
+	.retail_sciences_a .content_box3 {
+		padding: 0 10px;
+		margin: 15px 0;
+	}
+	.retail_sciences_a .content_box4 {
+		padding: 0 10px;
+		margin-top: 40px;
+	}
+	.retail_sciences_a .content_box4 .info {
+		width: 98%;
+	}
+	.retail_sciences_a .content_box4 dt {
+		font-size: 20px;
+	}
+	.retail_sciences_a .content_box4 dl {
+		width: 49%;
+		padding-left: 15px;
+	}
+	.retail_sciences_a .content_box4 dl:nth-child(odd) {
+		margin-right: 2%;
+	}
+	/*生命科学-样本前处理*/
+	.life_sciences_a .content_box2 {
+		margin-top: 0px;
+		padding: 40px 10px;
+	}
+	/*软件服务*/
+	.sencond_menu_box.two_dl dl {
+		width: 45%;
+	}
+	/*底部*/
+	.footer .col-lg-1 {
+		width: 100px;
+	}
+	.footer .m_left {
+		margin-left: 50px;
+	}
+	.footer .right_footer {
+		margin-right: 15px;
+	}
+	.footer .site_record {
+		margin-top: 30px;
+		font-size: 14px;
+	}
+}
+
+.margin_top_0 {
+	margin-top: 0px;
+}

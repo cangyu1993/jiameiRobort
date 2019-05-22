@@ -1,0 +1,132 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.life_sciences .banner{ background: url(../images/en/science_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.life_sciences_b .banner{ background: url(../images/en/science_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.make_sciences .banner{ background: url(../images/en/create_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.make_sciences_a .life_sciences_b .banner{ background: url(../images/en/create_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.make_sciences_b .life_sciences_b .banner{ background: url(../images/en/create_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.retail_sciences .life_sciences .banner{ background: url(../images/en/retail_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.retail_sciences_a .life_sciences_b .banner{ background: url(../images/en/retail_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.product_page .banner{ background: url(../images/en/product_ipad.jpg) center no-repeat; background-size: cover;}
+	.series_page .banner{ background: url(../images/en/series_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.parallel_page .banner{ background: url(../images/en/parallel_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.pipetting_page .banner{ background: url(../images/en/plane_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.plane_page .banner{ background: url(../images/en/plane_banner1_ipad.jpg) center no-repeat; background-size: cover;}
+	.motion_page .banner{ background: url(../images/en/direct_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.electric_page .banner{ background: url(../images/en/electric_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.direct_page .banner{ background: url(../images/en/directcurrent_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.gateway_page .banner{ background: url(../images/en/gateway_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.workstation_page .banner{ background:url(../images/en/workstation_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.soft_service .banner{ background: url(../images/en/suite_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.lease_page .banner{ background: url(../images/en/lease_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.aftersale_page .banner{ background: url(../images/en/aftersale_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.download_page .banner{ background: url(../images/en/download_ipad.jpg) center no-repeat; background-size: cover;}
+	.megarobo_info_page .content_box1{ background: url(../images/en/about_img_01_ipad.jpg) center no-repeat; background-size: cover;}
+	.news_list_page .banner{ background: url(../images/en/news_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.partner_page .banner{ background: url(../images/en/partner_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.joinus_page .banner{ background: url(../images/en/joinus_banner_ipad.jpg) center no-repeat; background-size: cover;}
+	.contactus_page .banner{ background: url(../images/en/contact_us_banner_ipad.jpg) center no-repeat; background-size: cover;}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	.navbar-nav>li>a{ font-size: 18px;}
+	.header_nav .first_menu>li{ margin-right: 30px;}
+	.sencond_menu_box dd{ font-size: 18px;}
+	.life_sciences_a .science_a_list li{height: auto;}
+	.life_sciences_a .science_a_list .text_box{ width: 54%;}
+	.life_sciences_a .science_a_list .text_box .info>div{ width: 95%;}
+	.life_sciences_d .en_text_box .text_box1{ width:64%;}
+	.life_sciences_d .en_text_box .en_text div{ width: 608px;}
+	.parallel_page .text_box2 .tit{line-height: 50px; margin-top: 0px;}
+	.electric_page .electric_box2 .text div:first-child{line-height: 20px;}
+	.direct_page .content_box2 li{ height: 392px;}
+	.direct_page .content_box2 .text{ font-size: 12px;}
+	.soft_page .feature_wrapper li{ font-size: 12px;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.header_nav h1{ width: 130px;}
+	.header_nav .first_menu>li{ margin-right: 8px;}
+	.navbar-collapse{ padding-left: 0px;}
+	.sencond_menu_box dd{ font-size: 15px;}
+	.sencond_menu_box .ipad_dd{ line-height: 20px; padding-top: 10px;}
+	.life_sciences_a .science_a_list li{height: auto;}
+	.life_sciences_a .science_a_list .text_box{ width: 54%;}
+	.life_sciences_a .science_a_list .text_box .info>div{ width: 94%;}
+	.make_sciences_b .content_box2 li{ height: 310px; padding-bottom: 0px;}
+	.retail_sciences_a .content_box4 dl{ height: 138px;}
+	.life_sciences_d .en_text_box .text_box1{ width:64%;}
+	.life_sciences_d .en_text_box .en_text div{ width: 618px;}
+	.sencond_menu_box .en_dd{line-height: 20px; padding: 9px 0;}
+	.parallel_page .text_box2 .tit{ line-height: 40px; margin-top: 0px;}
+	.plane_page .plane_feature h4{line-height: 18px;}
+	.plane_page .pipette_feature p{ font-size: 12px;}
+	.plane_page .plane_feature p{ line-height: 22px;}
+	.plane_page .plane_spec{ margin-bottom: 0px;}
+	.plane_page .plane_spec table{ margin-bottom: 50px;}
+	.plane_page .plane_feature li{ height: 250px; vertical-align: top;}
+	.sencond_menu_box  .en_ipad{ line-height: 20px; padding: 9px 0;}
+	.electric_page .electric_box2 .text div:first-child{line-height: 20px;}
+	.direct_page .content_box2 .tit{ line-height: 30px;}
+	.soft_page .ul_box .info div{ line-height: 22px;}
+	.soft_page .ul_box div.only{ line-height: 26px;}
+	.soft_page .feature_wrapper li{ font-size: 12px;}
+	.lease_page .range li{ font-size: 16px;}
+	.aftersale_page .contact_us{ margin: 20px 0 50px;}
+	.joinus_page .text_box{ width: 85%;}
+	.joinus_page .welfare .detail{ width: 100%;}
+	.contactus_page .form_box h3{ font-size: 13px;}
+	.contactus_page .form_box h3 span{ width: 0px;}
+}
+@media screen and  (max-width: 767px) {
+	
+	.sencond_menu_box dd.en_ipad{ line-height: 20px;}
+	.aftersale_page .banner{ background-size: cover;}
+	.lease_page .banner{ background-size: cover;}
+	.download_page .banner{ background-size: cover;}
+	.news_list_page .banner{ background-size: cover;}
+	.news_detail_page .banner{ background-size: cover;}
+	.megarobo_info_page .container{ background-size: cover;}
+	.partner_page .banner{ background-size: cover;}
+	.contactus_page .banner{background: url(../images/en/contact_us_banner_m.jpg) center no-repeat; background-size: cover;}
+	.joinus_page .banner{ background-size: cover;}
+	.product_page .banner{ background-size: cover;}
+	.parallel_page .banner{ background-size: cover;}
+	.series_page .banner{ background-size: cover;}
+	.pipetting_page .banner{ background-size: cover;}
+	.suite_page .banner{ background-size: cover;}
+	.soft_page .banner{ background-size: cover;}
+	.motion_page .banner{ background-size: cover;}
+	.direct_page .banner{ background-size: cover;}
+	.electric_page .banner{ background-size: cover;}
+	.workstation_page .banner{ background-size: cover;}
+	.gateway_page .banner{ background-size: cover;}
+	.make_sciences .banner{ height: 150px; background-size: cover;}
+	.make_sciences_b .life_sciences_b .banner{ height: 150px;background-size: cover;}
+	.make_sciences_a .life_sciences_b .banner{ height: 150px;background-size: cover;}
+	.retail_sciences .life_sciences .banner{ height: 150px; background-size: cover;}
+	.retail_sciences_a .life_sciences_b .banner{ height: 150px; background-size: cover;}
+	.life_sciences .banner{ height: 150px; background-size: cover;}
+	.life_sciences_b .banner{ height: 150px; background-size: cover;}
+		
+	.sencond_menu_box .ipad_dd{ line-height: 20px;}
+	.parallel_page .left_box .download_btn{ position: static; left: 0; top: 0px; margin-bottom: 15px; width:140px;}
+	.series_page .product_type dd{ line-height: 14px;}
+	.parallel_page .text_box .tit{ height: auto;}
+	.parallel_page .text_box2 .tit{ font-size: 15px;}
+	.soft_page .feature_wrapper span{ display: none;}
+	.soft_page .feature_wrapper li{ height: auto; border-radius: 10px; line-height: 26px; padding: 0 5px;}
+	.lease_page .introduce{ height: auto; padding-bottom: 15px;}
+	.lease_page .range li{ height: 108px;}
+	.download_content .down_menu{ font-size: 12px;}
+	.megarobo_info_page .use_field dt{ font-size: 12px;}
+	.joinus_page .welfare .detail{ width: 100%;}
+	.contactus_page .form_box h3{ line-height: 20px;}
+	
+	.joinus_page .joinus_box{ margin-bottom: 50px;}
+	
+	.series_page .profit_box dt{ width: 130px;}
+	.series_page .profit_box dd{ margin-top: 3px;}
+	.series_page .profit_box dl:first-child dd{ margin-top:10px; line-height: 26px;}
+}
+
+

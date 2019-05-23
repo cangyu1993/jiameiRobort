@@ -4,67 +4,375 @@
     padding-top: 20px;
 }
 
+/* m */
 
 @media screen and (max-width: 767px) {
     .coffeeSort h2 {
         text-align: center;
         font-size: 12px;
     }
+    .sortDetail_ {
+        margin-top: 20px;
+    }
+    .sortDetail_ .sortDetail_bottom>ul {
+        text-align: center;
+        padding: 0 15px;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li {
+        line-height: 2.5;
+        color: #ffffff;
+    }
+    .sortDetail_bottom>ul>li:first-child {
+        font-weight: bold;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li:not(:last-child) {
+        border-bottom: 1px dashed #fff;
+    }
+    .sortDetail_bottom>ul:nth-of-type(2n+1) {
+        background: #F19638;
+        border-radius: 6px;
+    }
+    .elsePcMargin {
+        margin: 10px 0
+    }
+    .fourItems .needWidth_>.itemBox_ {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .needWidth_ .itemBox_:nth-of-type(2n+1)>.itemBox_Icon {
+        order: -1;
+    }
+    .needWidth_>.itemBox_>.itemBox_Icon {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .needWidth_>.itemBox_>.itemBox_Icon>p {
+        margin: 10px 0;
+        color: #fff !important;
+    }
+    .needWidth_ .itemBox_:first-child .itemBox_Icon {
+        background: #2F2F2F url(../images/mIcon_01.png) center no-repeat;
+    }
+    .needWidth_ .itemBox_:nth-child(2) .itemBox_Icon {
+        background: #F19638 url(../images/mIcon_02.png) center no-repeat;
+    }
+    .needWidth_ .itemBox_:nth-child(3) .itemBox_Icon {
+        background: #F19638 url(../images/mIcon_03.png) center no-repeat;
+    }
+    .needWidth_ .itemBox_:nth-child(4) .itemBox_Icon {
+        background: #2F2F2F url(../images/mIcon_04.png) center no-repeat;
+    }
+
+    .content_box2 #featureBox .needFlex{
+        flex-wrap: wrap;
+    }
+    .content_box2 #featureBox .needFlex>li{
+        padding: 0 30px;
+    }
 }
 
-@media screen and (min-width: 768px) {
+/* ipad */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sortDetail_ .sortDetail_bottom {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .sortDetail_ .sortDetail_bottom>ul{
+        width: 30%;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li {
+        line-height: 2.5;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .sortDetail_bottom>ul>li:first-child {
+        font-weight: bold;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li:not(:last-child) {
+        border-bottom: 1px dashed #fff;
+    }
+    .sortDetail_bottom>ul:nth-of-type(2n+1) {
+        background: #F19638;
+        border-radius: 6px;
+    }
+
+    .fourItems {
+        background-color: #161616;
+    }
+    .fourItems .needWidth_ {
+        width: 100%;
+        height: 570px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    .needWidth_ .itemBox_ {
+        height: 30%;
+        width: 50%;
+        color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+    .needWidth_ .itemBox_ p {
+        width: 75%;
+    }
+    .needWidth_>.itemBox_:first-child .itemBox_Icon {
+        align-self: flex-end;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_10.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        transform: scale(.8)
+    }
+    .needWidth_>.itemBox_:first-child .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 12%;
+    }
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon {
+        align-self: flex-end;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_12.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        transform: scale(.8)
+    }
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 12%;
+    }
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon {
+        align-self: flex-start;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_16.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        transform: scale(.8)
+    }
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 13%;
+    }
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon {
+        align-self: flex-start;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_17.png) center no-repeat;
+        background-size: contain;
+        position: relative;
+        transform: scale(.8)
+    }
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 11%;
+    }
+
+}
+/* ipad-pro */
+@media screen and (min-width: 992px) and (max-width: 1119px){
+    .sortDetail_ .sortDetail_bottom {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .sortDetail_ .sortDetail_bottom>ul{
+        width: 30%;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li {
+        line-height: 2.5;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .sortDetail_bottom>ul>li:first-child {
+        font-weight: bold;
+    }
+    .sortDetail_ .sortDetail_bottom>ul>li:not(:last-child) {
+        border-bottom: 1px dashed #fff;
+    }
+    .sortDetail_bottom>ul:nth-of-type(2n+1) {
+        background: #F19638;
+        border-radius: 6px;
+    }
+
+    .fourItems {
+        background-color: #161616;
+    }
+    .fourItems .needWidth_ {
+        width: 100%;
+        height: 570px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    .needWidth_ .itemBox_ {
+        height: 30%;
+        width: 50%;
+        color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+    .needWidth_ .itemBox_ p {
+        width: 75%;
+    }
+    .needWidth_>.itemBox_:first-child .itemBox_Icon {
+        align-self: flex-end;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_10.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        /* transform: scale(.8) */
+    }
+    .needWidth_>.itemBox_:first-child .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 12%;
+    }
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon {
+        align-self: flex-end;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_12.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        /* transform: scale(.8) */
+    }
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 12%;
+    }
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon {
+        align-self: flex-start;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_16.jpg) center no-repeat;
+        background-size: contain;
+        position: relative;
+        /* transform: scale(.8) */
+    }
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 13%;
+    }
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon {
+        align-self: flex-start;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_17.png) center no-repeat;
+        background-size: contain;
+        position: relative;
+        /* transform: scale(.8) */
+    }
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon p {
+        font-size: 16px;
+        text-align: center;
+        position: absolute;
+        bottom: 34px;
+        right: 11%;
+    }
+}
+
+
+/* pc */
+
+@media screen and (min-width:1200px) {
     .coffeeSort {
         text-align: center;
         color: #ffffff;
         padding: 20px 0;
         background-color: #030100;
     }
-
-    .sortDetail_{
-      width: 100%;
-      height: 540px;
-      background: #161616  url(../images/coffee_06.jpg) center no-repeat;
-      position: relative;
+    .sortDetail_ {
+        width: 100%;
+        height: 540px;
+        background: #161616
     }
-    .sortDetail_>ul{
+    .sortDetail_ .sortDetail_bottom {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        background: #161616 url(../images/coffee_06.jpg) center no-repeat;
+        position: relative;
+    }
+    .sortDetail_bottom>ul {
         position: absolute;
         color: #ffffff;
         font-size: 16px;
         text-align: center
     }
-    .sortDetail_>ul>li{
+    .sortDetail_bottom>ul>li {
         line-height: 3;
     }
-
-    .sortDetail_>ul>li:nth-child(n+4){
+    .sortDetail_bottom>ul>li:nth-child(n+4) {
         line-height: 2.5;
     }
-
-    .sortDetail_>ul>li:first-child{
+    .sortDetail_bottom>ul>li:first-child {
         font-weight: bold;
     }
-
-
-    .sortDetail_>ul:first-child{
+    .sortDetail_bottom>ul:first-child {
         top: 107px;
-        left: 384px;
+        left: 145px;
     }
-
-    .sortDetail_>ul:nth-child(2){
+    .sortDetail_bottom>ul:nth-child(2) {
         top: 107px;
-        left: 800px;
+        left: 553px;
     }
-
-    .sortDetail_>ul:nth-child(3){
+    .sortDetail_bottom>ul:nth-child(3) {
         top: 107px;
-        right: 384px;
+        right: 155px;
     }
-
-    .fourItems{
+    .fourItems {
         background-color: #161616;
     }
-
-    .fourItems .needWidth_{
+    .fourItems .needWidth_ {
         width: 1200px;
         height: 570px;
         margin: 0 auto;
@@ -74,82 +382,71 @@
         flex-wrap: wrap;
         align-content: center
     }
-    .needWidth_ .itemBox_{
-       height: 30%;
-       width: 50%;
-       color: #ffffff;
-       box-sizing: border-box;
-       display: flex;
-       justify-content: space-between;
+    .needWidth_ .itemBox_ {
+        height: 30%;
+        width: 50%;
+        color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
     }
-    .needWidth_ .itemBox_ p{
-         width: 75%;
+    .needWidth_ .itemBox_ p {
+        width: 75%;
     }
-
-    .needWidth_>.itemBox_:first-child .itemBox_Icon{
-      align-self: flex-end;
-      width: 170px;
-      height: 170px;
-      background: url(../images/coffee_10.jpg) center no-repeat;
-      position: relative;
+    .needWidth_>.itemBox_:first-child .itemBox_Icon {
+        align-self: flex-end;
+        width: 170px;
+        height: 170px;
+        background: url(../images/coffee_10.jpg) center no-repeat;
+        position: relative;
     }
-    .needWidth_>.itemBox_:first-child .itemBox_Icon p{
+    .needWidth_>.itemBox_:first-child .itemBox_Icon p {
         font-size: 16px;
         text-align: center;
         position: absolute;
         bottom: 34px;
         right: 12%;
     }
-
-    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon{
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon {
         align-self: flex-end;
         width: 170px;
         height: 170px;
         background: url(../images/coffee_12.jpg) center no-repeat;
         position: relative;
-      }
-
-      .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon p{
+    }
+    .needWidth_>.itemBox_:nth-child(2) .itemBox_Icon p {
         font-size: 16px;
         text-align: center;
         position: absolute;
         bottom: 34px;
         right: 12%;
     }
-
-
-    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon{
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon {
         align-self: flex-start;
         width: 170px;
         height: 170px;
         background: url(../images/coffee_16.jpg) center no-repeat;
         position: relative;
-      }
-
-      .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon p{
+    }
+    .needWidth_>.itemBox_:nth-child(3) .itemBox_Icon p {
         font-size: 16px;
         text-align: center;
         position: absolute;
         bottom: 34px;
         right: 13%;
     }
-
-
-    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon{
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon {
         align-self: flex-start;
         width: 170px;
         height: 170px;
         background: url(../images/coffee_17.png) center no-repeat;
         position: relative;
-      }
-
-      .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon p{
+    }
+    .needWidth_>.itemBox_:nth-child(4) .itemBox_Icon p {
         font-size: 16px;
         text-align: center;
         position: absolute;
         bottom: 34px;
         right: 11%;
     }
-
-
 }
